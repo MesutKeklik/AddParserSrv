@@ -154,7 +154,7 @@ namespace AddParserSrv.Classes
             var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             countyDoc.Add(idcountyField);
 
-            textcountyField.SetValue("Maltepe Maslak");
+            textcountyField.SetValue("Maltepe Maslak"); //İlçe bilgileri bir yerden okunmalı burada elle girilmiş durumda
             idcountyField.SetValue("1");
 
             var cityDoc = new Document();
@@ -163,7 +163,7 @@ namespace AddParserSrv.Classes
             var idcityField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             cityDoc.Add(idcityField);
 
-            textcityField.SetValue("İstanbul İzmir");
+            textcityField.SetValue("İstanbul İzmir"); //il bilgileri bir yerden okunmalı burada elle girilmiş durumda
             idcityField.SetValue("2");
 
             iw.AddDocument(distDoc);
