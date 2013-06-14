@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
+using System.Text;
 using System.Text.RegularExpressions;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
@@ -47,6 +51,9 @@ namespace AddParserSrv.Classes
             var rulledMatches = "";
             const string tmpMatch = "";
             var wsSep = new[] { " " };
+            var slhSep = new[] { "/" };
+            var commaSep = new[] { "," };
+            var reverseSlhSep = new[] { "\\" };
 
             var dict = GetSearchDict(addressStr);
             var orderedDict = dict.OrderBy(x => x.Key);
@@ -102,13 +109,41 @@ namespace AddParserSrv.Classes
             //içinde özel karakter ve sayı yoksa il ilçe ya da semttir.
             var cityDistrictFinal = cityDistrict.Where(s => (!s.Contains(".")) && (!s.Contains(":")) && s.All(Char.IsLetter)).ToList();
 
+            foreach (var s in cityDistrict)
+            {
+                if (s.Contains("/"))
+                    cityDistrictFinal.AddRange(s.Split(slhSep, StringSplitOptions.RemoveEmptyEntries));
+                if (s.Contains("\\"))
+                    cityDistrictFinal.AddRange(s.Split(reverseSlhSep, StringSplitOptions.RemoveEmptyEntries));
+                if (s.Contains(","))
+                    cityDistrictFinal.AddRange(s.Split(commaSep, StringSplitOptions.RemoveEmptyEntries));
+            }
+
+
             //sadece sayılardan oluşuyorsa ve uzunluğu da 5 ise posta kodudur.
             var postalCode = cityDistrict.Where(s => (!s.Contains(".")) && (!s.Contains(":")) && s.All(Char.IsDigit) && s.Length == 5).ToList();
             addr.PostaKodu = postalCode.Count > 0 ? postalCode[0] : "";
 
-            foreach (var cityorDistrict in cityDistrictFinal)
+            var cityDistrictFinalDistict = new List<string>(cityDistrictFinal.Select(cityorDistrict => Regex.Replace(cityorDistrict, @"\W|_", "")));
+
+            for (int i = 0; i < cityDistrictFinalDistict.Count; i++)
             {
-                var suggestion = SpellCheck(cityorDistrict.Trim());
+                cityDistrictFinalDistict[0] = ChangeTurkishToEnglish(cityDistrictFinalDistict[0]);
+            }
+
+            cityDistrictFinalDistict = new List<string>(cityDistrictFinalDistict.Distinct());
+
+            var cityDistrictFinalSorted = new List<string>();
+
+            for (int i = cityDistrictFinalDistict.Count-1; i >= 0; i--)
+            {
+                cityDistrictFinalSorted.Add(cityDistrictFinalDistict[i]);
+            }
+
+
+
+            foreach (var suggestion in cityDistrictFinalSorted.Select(cp => SpellCheck(cp, GetCities(), GetDistricts(), GetCounties())))
+            {
                 switch (suggestion.SuggestedType)
                 {
                     case SuggestionType.City:
@@ -128,13 +163,60 @@ namespace AddParserSrv.Classes
             return addr;
         }
 
+        private static string ChangeTurkishToEnglish(string turkish)
+        {
+            return
+                turkish.Replace("ş", "s")
+                       .Replace("ı", "i")
+                       .Replace("ö", "o")
+                       .Replace("ü", "u")
+                       .Replace("ğ", "g")
+                       .Replace("ç", "c");
+        }
+
+        private static string GetCities()
+        {
+            var cityStrBuilder = new StringBuilder();
+
+            foreach (var source in Properties.Resources.Cities.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
+            {
+                cityStrBuilder.Append(source);
+                cityStrBuilder.Append(" ");
+            }
+
+            return cityStrBuilder.ToString();
+        }
+
+        private static string GetCounties()
+        {
+            var countyStrBuilder = new StringBuilder();
+
+            foreach (var source in Properties.Resources.Counties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
+            {
+                countyStrBuilder.Append(source);
+                countyStrBuilder.Append(" ");
+            }
+
+            return countyStrBuilder.ToString();
+        }
+
+        private static string GetDistricts()
+        {
+            var distStrBuilder = new StringBuilder();
+
+            foreach (var source in Properties.Resources.Districts.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
+            {
+                distStrBuilder.Append(source);
+                distStrBuilder.Append(" ");
+            }
+
+            return distStrBuilder.ToString();
+        }
 
         /// <summary>
         /// tek kelime seklinde girilmis bilgilerin dogrulugunu kontrol edip onerileni getirir
         /// </summary>
-        /// <param name="word"></param>
-        /// <returns></returns>
-        private static SuggestionDT SpellCheck(string word)
+        private static SuggestionDT SpellCheck(string word, string cities, string districts, string counties)
         {
             var dir = new RAMDirectory();
             var iw = new IndexWriter(dir, new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30), IndexWriter.MaxFieldLength.UNLIMITED);
@@ -145,7 +227,7 @@ namespace AddParserSrv.Classes
             var iddistField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             distDoc.Add(iddistField);
 
-            textdistField.SetValue("Küçükyalı Kozyatağı");
+            textdistField.SetValue(districts);
             iddistField.SetValue("0");
 
             var countyDoc = new Document();
@@ -154,7 +236,7 @@ namespace AddParserSrv.Classes
             var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             countyDoc.Add(idcountyField);
 
-            textcountyField.SetValue("Maltepe Maslak"); //İlçe bilgileri bir yerden okunmalı burada elle girilmiş durumda
+            textcountyField.SetValue(counties); //İlçe bilgileri bir yerden okunmalı burada elle girilmiş durumda
             idcountyField.SetValue("1");
 
             var cityDoc = new Document();
@@ -163,7 +245,7 @@ namespace AddParserSrv.Classes
             var idcityField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             cityDoc.Add(idcityField);
 
-            textcityField.SetValue("İstanbul İzmir"); //il bilgileri bir yerden okunmalı burada elle girilmiş durumda
+            textcityField.SetValue(cities); //il bilgileri bir yerden okunmalı burada elle girilmiş durumda
             idcityField.SetValue("2");
 
             iw.AddDocument(distDoc);
@@ -177,7 +259,7 @@ namespace AddParserSrv.Classes
             speller.IndexDictionary(new LuceneDictionary(reader, "text"));
             var suggestions = speller.SuggestSimilar(word, 5);
 
-            var retVal = new SuggestionDT { SuggestedWord = suggestions.Length > 0 ? suggestions[0] : "" };
+            var retVal = new SuggestionDT { SuggestedWord = suggestions.Length > 0 ? suggestions[0] : word };
 
             var searcher = new IndexSearcher(reader);
             foreach (var doc in suggestions.Select(suggestion => searcher.Search(new TermQuery(new Term("text", suggestion)), null, Int32.MaxValue)).SelectMany(docs => docs.ScoreDocs))
@@ -273,7 +355,9 @@ namespace AddParserSrv.Classes
                     repWord = replaceWordArray[0];
                 }
 
-                addressStr = addressStr.Replace(repWord, "");
+                //addressStr = addressStr.Replace(repWord, "");
+
+                addressStr = ReplaceFirst(addressStr, repWord, "");
                 rulledMatches += " " + repWord;
             }
             else
@@ -290,6 +374,15 @@ namespace AddParserSrv.Classes
             return new[] { repWord.Trim(), addressStr, rulledMatches };
         }
 
+        private static string ReplaceFirst(string text, string search, string replace)
+        {
+            int pos = text.IndexOf(search, System.StringComparison.Ordinal);
+            if (pos < 0)
+            {
+                return text;
+            }
+            return text.Substring(0, pos) + replace + text.Substring(pos + search.Length);
+        }
 
         /// <summary>
         /// Adres içinde aramanın yapılacağı tiplerin adres içinde nerede geçtiğini döner
