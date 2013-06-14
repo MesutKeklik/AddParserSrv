@@ -1,4 +1,5 @@
-﻿using AddParserSrv.Classes;
+﻿using System.Globalization;
+using AddParserSrv.Classes;
 
 namespace AddParserSrv
 {
@@ -8,7 +9,7 @@ namespace AddParserSrv
     {
         public AddressDT ParseAddressFromString(string irregularAddress)
         {
-            return Parser.ParseAddress(irregularAddress);
+            return Parser.ParseAddress(irregularAddress.ToLower(new CultureInfo("tr-TR")));
         }
     }
 }
