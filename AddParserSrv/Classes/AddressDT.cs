@@ -14,7 +14,9 @@ namespace AddParserSrv.Classes
        [DataMember]
        public string Site { get; set; }
        [DataMember]
-       public string Apt { get; set; }
+       public string Blok { get; set; }
+       [DataMember]
+       public string Bina { get; set; }
        [DataMember]
        public string Bulv { get; set; }
        [DataMember]

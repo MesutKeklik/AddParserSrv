@@ -12,8 +12,7 @@ namespace ServiceTester
         static void Main(string[] args)
         {
             var parser = new AddressParserSRV();
-            var ret = parser.ParseAddressFromString(
-                "Yıldız mah. Asariye cad. Sinanpasa mescidi sok. Yıldız apt., no:1 d:4 Cıragan/Besiktas Beşiktaş (Yıldız),İSTANBUL ".ToLower());
+            var ret = parser.ParseAddressFromString("Büyükdere Caddesi No 245 USO Center Plaza Maslak, İstanbul");
             Console.Read();
         }
     }

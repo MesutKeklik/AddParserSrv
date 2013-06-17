@@ -1,1 +1,15 @@
-﻿
+﻿//İstanbul
+&&Beşiktaş
+Yıldız
+Çırağan
+Balmumcu
+&&Maltepe
+Küçükyalı
+&&Şişli
+Maslak
+&&Kadıköy
+Kozyatağı
+
+//Ankara
+&&Kızılay
+Kolej

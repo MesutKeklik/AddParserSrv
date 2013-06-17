@@ -11,6 +11,7 @@
     {
         public string SuggestedWord { get; set; }
         public SuggestionType SuggestedType { get; set; }
+        public bool IsFound { get; set; }
     }
 
 }

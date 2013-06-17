@@ -9,7 +9,7 @@ namespace AddParserSrv
     {
         public AddressDT ParseAddressFromString(string irregularAddress)
         {
-            return Parser.ParseAddress(irregularAddress.ToLower(new CultureInfo("tr-TR")));
+            return Parser.ParseAddress(irregularAddress.ToLower());
         }
     }
 }
