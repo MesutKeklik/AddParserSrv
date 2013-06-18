@@ -33,6 +33,8 @@ namespace AddParserSrv.Classes
        public string Kat { get; set; }
        [DataMember]
        public string Daire { get; set; }
+       [DataMember]
+       public string Bolge { get; set; }
    }
 
 }

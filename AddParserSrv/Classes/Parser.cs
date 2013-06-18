@@ -29,21 +29,22 @@ namespace AddParserSrv.Classes
             No,
             Kat,
             Daire,
-            Blok
+            Blok,
+            Bolge
         }
 
         //sabit regex 
         public const string MahReg = "(( m[ ])|( m[. ])|( mh[ ])|( mh[. ])|( mah[ ])|( mah[. ])|( mahalle.*[ ]))";
         public const string SkReg = "(( s[ ])|( s[. ])|( sk[ ])|( sk[. ])|( sok[ ])|( sok[. ])|( sokak[ ])|( sokağ.*[ ]))";
-        public const string AptReg = "(( a[ ])|( a[. ])|( ap[ ])|( ap[. ])|( apt[ ])|( apt[. ])|( apart.*[ ])|( p[ ])|( p[. ])|( pl[ ])|( pl[. ])|( plz[ ])|( plz[. ])|( plaz.*[ ])|( i* merkez.*[ ]))";
-        public const string CadReg = "(( c[ ])|( c[. ])|( cd[ ])|( cd[. ])|( cad[ ])|( cad[. ])|( cadde.*[ ]))";
+        public const string AptReg = "(( iş[ ]han.*[ ])|( is[ ]han.*[ ])|( iş[ ]m.*[ ])|( is[ ]m.*[ ])|( bina.*[ ])|( a[ ])|( a[. ])|( ap[ ])|( ap[. ])|( apt[ ])|( apt[. ])|( apart.*[ ])|( p[ ])|( p[. ])|( pl[ ])|( pl[. ])|( plz[ ])|( plz[. ])|( plaz.*[ ])|( i* merkez.*[ ]))";
+        public const string CadReg = "(( yol.*[ ])|( c[ ])|( c[. ])|( cd[ ])|( cd[. ])|( cad[ ])|( cad[. ])|( cadde.*[ ]))";
         public const string SiteReg = "(( st[ ])|( st[. ])|( site.*[ ]))";
         public const string BlokReg = "( blok.*[ ])";
-        public const string BulvReg = "(( bl[ ])|( bl[. ])|( bulv.*[ ]))";
+        public const string BulvReg = "(( bl[ ])|( bl[. ])|( bulv.*[ ])|( blv.*[ ]))";
         public const string NoReg = "(( n[.])|( n[.:])|( n[:])|( no[.])|( no[.:])|( no[:])|( no[ ]))";
         public const string KatReg = "(( k[.])|( k[.:])|( k[:])|( kat[.])|( kat[.:])|( kat[:])|( kat[ ]))";
         public const string DaireReg = "(( d[.])|( d[.:])|( d[:])|( da[.])|( da[.:])|( da[:])|( daire[:])|( daire[ ]))";
-
+        public const string BolgeReg = "( kamp.*[ ])";
 
 
         public static AddressDT ParseAddress(string addressStr)
@@ -64,7 +65,7 @@ namespace AddParserSrv.Classes
             var orderedDict = dict.OrderBy(x => x.Key);
 
             var addr = new AddressDT();
-
+            
             //sıralanmış dictionary arama yapıp addr'nin ilgili alanlarının doldurulduğu kısım.
             foreach (var item in orderedDict)
             {
@@ -100,6 +101,9 @@ namespace AddParserSrv.Classes
                         break;
                     case SearchType.Blok:
                         addr.Blok = word[0];
+                        break;
+                    case SearchType.Bolge:
+                        addr.Bolge = word[0];
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -171,6 +175,7 @@ namespace AddParserSrv.Classes
                         break;
                     case SuggestionType.County:
                         addr.Ilce = sg.SuggestedWord;
+                        if (addr.Il != null && addr.Ilce != null)
                         districts = GetDistricts(addr.Il, addr.Ilce);
                         break;
                     default:
@@ -461,6 +466,7 @@ namespace AddParserSrv.Classes
         {
             int matchIndex = 0;
             bool changeIndex = false;
+            bool isNumber = false;
             if (tmpMatch == null) throw new ArgumentNullException("tmpMatch");
             var wsSep = new[] { " " };
             string regularExpression;
@@ -490,14 +496,20 @@ namespace AddParserSrv.Classes
                     break;
                 case SearchType.Kat:
                     regularExpression = KatReg;
+                    isNumber = true;
                     changeIndex = true;
                     break;
                 case SearchType.Daire:
                     regularExpression = DaireReg;
+                    isNumber = true;
                     changeIndex = true;
                     break;
                 case SearchType.Blok:
                     regularExpression = BlokReg;
+                    changeIndex = false;
+                    break;
+                case SearchType.Bolge:
+                    regularExpression = BolgeReg;
                     changeIndex = false;
                     break;
                 default:
@@ -516,7 +528,6 @@ namespace AddParserSrv.Classes
 
             if (addressStr.Length > repWord.Length)
             {
-
                 if (changeIndex)
                 {
                     var replaceWordArray = match[matchIndex].Split(wsSep, StringSplitOptions.RemoveEmptyEntries);
@@ -525,8 +536,15 @@ namespace AddParserSrv.Classes
 
                 //addressStr = addressStr.Replace(repWord, "");
 
-                addressStr = ReplaceFirst(addressStr, repWord, "");
-                rulledMatches += " " + repWord;
+                if (!isNumber || repWord.Contains("-") || repWord.Contains(".") || repWord.Contains("&") || repWord.Length <= 3)
+                {
+                    addressStr = ReplaceFirst(addressStr, repWord, "");
+                    rulledMatches += " " + repWord;
+                }
+                else
+                {
+                    repWord = "";
+                }
             }
             else
                 repWord = "";
@@ -623,6 +641,12 @@ namespace AddParserSrv.Classes
             if (m.Count > 0)
                 ndx = m[0].Index;
             if (ndx > 0) matchPos.Add(ndx, SearchType.Blok);
+
+            m = Regex.Matches(addressStr, BolgeReg, RegexOptions.IgnoreCase);
+            ndx = 0;
+            if (m.Count > 0)
+                ndx = m[0].Index;
+            if (ndx > 0) matchPos.Add(ndx, SearchType.Bolge);
 
             return matchPos;
         }
