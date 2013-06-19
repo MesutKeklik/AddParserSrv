@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Resources;
 using System.Text;
 using System.Text.RegularExpressions;
 using Lucene.Net.Analysis.Standard;
@@ -506,11 +503,9 @@ namespace AddParserSrv.Classes
                     break;
                 case SearchType.Blok:
                     regularExpression = BlokReg;
-                    changeIndex = false;
                     break;
                 case SearchType.Bolge:
                     regularExpression = BolgeReg;
-                    changeIndex = false;
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("sType");
@@ -550,9 +545,14 @@ namespace AddParserSrv.Classes
                 repWord = "";
             if (matched.Count > 0)
             {
-                tmpMatch = matched[0].Value.Split(' ').Length > 0
-                               ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0]
+                if (matched[0].Value.Contains("is") || matched[0].Value.Contains("iş"))
+                    tmpMatch = matched[0].Value.Split(' ').Length > 0
+                               ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0] + " " + matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[1] 
                                : matched[0].Value;
+                else
+                    tmpMatch = matched[0].Value.Split(' ').Length > 0
+                                   ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0]
+                                   : matched[0].Value;
                 addressStr = ReplaceFirst(addressStr, tmpMatch, "");
                 rulledMatches += " " + tmpMatch;
             }
