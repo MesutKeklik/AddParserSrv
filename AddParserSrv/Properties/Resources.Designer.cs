@@ -127,7 +127,7 @@ namespace AddParserSrv.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to -----//Adana
+        ///   Looks up a localized string similar to //Adana
         ///Aladağ
         ///Ceyhan
         ///Çukurova
@@ -144,7 +144,7 @@ namespace AddParserSrv.Properties {
         ///Yumurtalık
         ///Yüreğir
         ///
-        ///-----//Adıyaman
+        /////Adıyaman
         ///Besni
         ///Çelikhan
         ///Gerger
@@ -154,7 +154,7 @@ namespace AddParserSrv.Properties {
         ///Sincik
         ///Tut
         ///
-        ///-----//Afyonkarahisar
+        /////Afyonkarahisar
         ///Başmakçı
         ///Bayat
         ///Bolvadin
@@ -173,7 +173,7 @@ namespace AddParserSrv.Properties {
         ///Sultandağı
         ///Şuhut
         ///
-        ///-----//Ağrı
+        /////Ağrı
         ///Diyadin
         ///Doğubeyazıt
         ///Eleşkirt
@@ -182,7 +182,10 @@ namespace AddParserSrv.Properties {
         ///Taşlıçay
         ///Tutak
         ///
-        ///-----//Aksaray        /// [rest of string was truncated]&quot;;.
+        /////Aksaray
+        ///Ağaçören
+        ///Eskil
+        ///Gülağaç [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Counties {
             get {
@@ -191,7 +194,21 @@ namespace AddParserSrv.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to //İstanbul
+        ///&amp;&amp;Beşiktaş
+        ///Yıldız
+        ///Çırağan
+        ///Balmumcu
+        ///&amp;&amp;Maltepe
+        ///Küçükyalı
+        ///&amp;&amp;Şişli
+        ///Maslak
+        ///&amp;&amp;Kadıköy
+        ///Kozyatağı
+        ///
+        /////Ankara
+        ///&amp;&amp;Kızılay
+        ///Kolej.
         /// </summary>
         public static string Districts {
             get {
