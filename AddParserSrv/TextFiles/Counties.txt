@@ -1,1066 +1,3598 @@
-﻿//Adana
-Aladağ
-Ceyhan
-Çukurova
-Feke
-İmamoğlu
-Karaisalı
-Karataş
-Kozan
-Pozantı
-Saimbeyli
-Sarıçam
-Seyhan
-Tufanbeyli
-Yumurtalık
-Yüreğir
-
-//Adıyaman
-Besni
-Çelikhan
-Gerger
-Gölbaşı
-Kahta
-Samsat
-Sincik
-Tut
-
-//Afyonkarahisar
-Başmakçı
-Bayat
-Bolvadin
-Çay
-Çobanlar
-Dazkırı
-Dinar
-Emirdağ
-Evciler
-Hocalar
-İhsaniye
-İscehisar
-Kızılören
-Sandıklı
-Sinanpaşa
-Sultandağı
-Şuhut
-
-//Ağrı
-Diyadin
-Doğubeyazıt
-Eleşkirt
-Hamur
-Patnos
-Taşlıçay
-Tutak
-
-//Aksaray
-Ağaçören
-Eskil
-Gülağaç
-Güzelyurt
-Ortaköy
-Sarıyahşi
-
-//Amasya
-Göynücek
-Gümüşhacıköy
-Hamamözü
-Merzifon
-Suluova
-Taşova
-
-//Ankara
-Akyurt
-Altındağ
-Ayaş
-Bala
-Beypazarı
-Çamlıdere
-Çankaya
-Çubuk
-Elmadağ
-Etimesgut
-Evren
-Gölbaşı
-Güdül
-Haymana
-Kalecik
-Kazan
-Keçiören
-Kızılcahamam
-Mamak
-Nallıhan
-Polatlı
-Pursaklar
-Sincan
-Şereflikoçhisar
-Yenimahalle
-
-
-//Antalya
-Akseki
-Aksu
-Alanya
-Döşemealtı
-Elmalı
-Finike
-Gazipaşa
-Gündoğmuş
-İbradi
-Kale
-Kaş
-Kemer
-Kepez
-Konyaaltı
-Korkuteli
-Kumluca
-Manavgat
-Muratpaşa
-Serik
-
-//Ardahan
-Çıldır
-Damal
-Göle
-Hanak
-Posof
-
-//Artvin
-Ardanuç
-Arhavi
-Borçka
-Hopa
-Murgul
-Şavşat
-Yusufeli
-
-//Aydın
-Bozdoğan
-Buharkent
-Çine
-Didim
-Germencik
-İncirliova
-Karacasu
-Karpuzlu
-Koçarlı
-Köşk
-Kuşadası
-Kuyucak
-Nazilli
-Söke
-Sultanhisar
-Yenipazar
-
-
-//Balıkesir
-Ayvalık
-Balya
-Bandırma
-Bigadiç
-Burhaniye
-Dursunbey
-Edremit
-Erdek
-Gömeç
-Gönen
-Havran
-İvrindi
-Kepsut
-Manyas
-Marmara
-Savaştepe
-Sındırgı
-Susurluk
-
-//Bartın
-Amasra
-Kurucaşile
-Ulus
-
-//Batman
-Beşiri
-Gercüş
-Hasankeyf
-Kozluk
-Sason
-
-//Bayburt
-Aydıntepe
-Demirözü
-
-//Bilecik
-Bozüyük
-Gölpazarı
-İnhisar
-Osmaneli
-Pazaryeri
-Söğüt
-Yenipazar
-
-//Bingöl
-Adaklı
-Genç
-Karlıova
-Kiğı
-Solhan
-Yayladere
-Yedisu
-
-//Bitlis
-Adilcevaz
-Ahlat
-Güroymak
-Hizan
-Mutki
-Tatvan
-
-//Bolu
-Dörtdivan
-Gerede
-Göynük
-Kıbrıscık
-Mengen
-Mudurnu
-Seben
-Yeniçağa
-
-//Burdur
-Ağlasun
-Altınyayla
-Bucak
-Çavdır
-Çeltikçi
-Gölhisar
-Karamanlı
-Kemer
-Tefenni
-Yeşilova
-
-//Bursa
-Büyükorhan
-Gemlik
-Gürsu
-Harmancık
-İnegöl
-İznik
-Karacabey
-Keles
-Kestel
-Mudanya
-Mustafakemalpaşa
-Nilüfer
-Orhaneli
-Orhangazi
-Osmangazi
-Yenişehir
-Yıldırım
-
-//Çanakkale
-Ayvacık
-Bayramiç
-Biga
-Bozcaada
-Çan
-Eceabat
-Ezine
-Gelibolu
-Gökçeada
-Lapseki
-Yenice
-
-//Çankırı
-Atkaracalar
-Bayramören
-Çerkeş
-Eldivan
-Ilgaz
-Kızılırmak
-Korgun
-Kurşunlu
-Orta
-Şabanözü
-Yapraklı
-
-//Çorum
-Alaca
-Bayat
-Boğazkale
-Dodurga
-İskilip
-Kargı
-Laçin
-Mecitözü
-Oğuzlar
-Ortaköy
-Osmancık
-Sungurlu
-Uğurludağ
-
-//Denizli
-Acıpayam
-Akköy
-Babadağ
-Baklan
-Bekilli
-Beyağaç
-Bozkurt
-Buldan
-Çal
-Çameli
-Çardak
-Çivril
-Güney
-Honaz
-Kale
-Sarayköy
-Serinhisar
-Tavas
-
-//Diyarbakır
-Bağlar
-Bismil
-Çermik
-Çınar
-Çüngüş
-Dicle
-Eğil
-Ergani
-Hani
-Hazro
-Kayapınar
-Kocaköy
-Kulp
-Lice
-Silvan
-Sur
-Yenişehir
-
-//Düzce
-Akçakoca
-Cumayeri
-Çilimli
-Gölyaka
-Gümüşova
-Kaynaşlı
-Yığılca
-
-//Edirne
-Enez
-Havsa
-İpsala
-Keşan
-Lalapaşa
-Meriç
-Süloğlu
-Uzunköprü
-
-//Elazığ
-Ağın
-Alacakaya
-Arıcak
-Baskil
-Karakoçan
-Keban
-Kovancılar
-Maden
-Palu
-Sivrice
-
-//Erzincan
-Çayırlı
-İliç
-Kemah
-Kemaliye
-Otlukbeli
-Refahiye
-Tercan
-Üzümlü
-
-//Erzurum
-Aşkale
-Aziziye
-Çat
-Hınıs
-Horasan
-İspir
-Karaçoban
-Karayazı
-Köprüköy
-Narman
-Oltu
-Olur
-Palandöken
-Pasinler
-Pazaryolu
-Şenkaya
-Tekman
-Tortum
-Uzundere
-Yakutiye
-
-//Eskişehir
-Alpu
-Beylikova
-Çifteler
-Günyüzü
-Han
-İnönü
-Mahmudiye
-Mihalgazi
-Mihalıççık
-Odunpazarı
-Sarıcakaya
-Seyitgazi
-Sivrihisar
-Tepebaşı
-
-//Gaziantep
-Araban
-İslahiye
-Karkamış
-Nizip
-Nurdağı
-Oğuzeli
-Şahinbey
-Şehitkamil
-Yavuzeli
-
-//Giresun
-Alucra
-Bulancak
-Çamoluk
-Çanakçı
-Dereli
-Doğankent
-Espiye
-Eynesil
-Görele
-Güce
-Keşap
-Piraziz
-Şebinkarahisar
-Tirebolu
-Yağlıdere
-
-//Gümüşhane
-Kelkit
-Köse
-Kürtün
-Şiran
-Torul
-
-//Hakkari
-Çukurca
-Şemdinli
-Yüksekova
-
-//Hatay
-Altınözü
-Antakya
-Belen
-Dörtyol
-Erzin
-Hassa
-İskenderun
-Kırıkhan
-Kumlu
-Reyhanlı
-Samandağ
-Yayladağı
-
-//Iğdır
-Aralık
-Karakoyunlu
-Tuzluca
-
-//Isparta
-Aksu
-Atabey
-Eğirdir
-Gelendost
-Gönen
-Keçiborlu
-Senirkent
-Sütçüler
-Şarkikaraağaç
-Uluborlu
-Yalvaç
-Yenişarbademli
-
-//İstanbul
-Adalar
-Arnavutköy
-Ataşehir
-Avcılar
-Bağcılar
+﻿//ADANA
+&&ÇUKUROVA
+Belediye Evleri Mah.(T.Özal Bul.Kuzeyi)
+Belediye Evleri Mahallesi(T.Özal Bul.Güneyi)
+Güzelyalı Mahallesi(K.Evren Bul.Güneyi)
+Güzelyalı Mahallesi(K.Evren Bul.Kuzeyi)
+Huzurevleri Mahallesi (T.Özal Bul.Güneyi)
+Huzurevleri Mahallesi (T.Özal Bul.Kuzeyi)
+Karslılar Mh.
+Kurttepe Mh.
+Mahfesığmaz Mh.
+Toros Mh.
+Yurt Mahallesi (T.Özal Bul.Güneyi)
+Yurt Mahallesi (T.Özal Bul.Kuzeyi)
+&&SEYHAN
+Ahmet Remzi Yüreğir Mh.
+Cemalpaşa Mh.
+Çınarlı Mh.
+Döşeme Mh.
+Gazipaşa Mh.
+Kurtuluş Mh.
+Namık Kemal Mh.
+Reşatbey Mh.
+Ziyapaşa Mh.
+//ADIYAMAN
+&&Merkez
+Bahçecik
+Bahçecik Mh.
 Bahçelievler
-Bakırköy
-Başakşehir
-Bayrampaşa
-Beşiktaş
-Beykoz
-Beylikdüzü
-Beyoğlu
-Büyükçekmece
-Çatalca
-Çekmeköy
-Esenler
-Esenyurt
-Eyüp
+Bahçelievler Mh.
+Cumhuriyet
+Cumhuriyet Mh.
+Eskisaray
+Eskisaray Mh.
 Fatih
-Gaziosmanpaşa
-Güngören
-Kadıköy
-Kağıthane
-Kartal
-Küçükçekmece
-Maltepe
-Pendik
-Sancaktepe
-Sarıyer
-Silivri
-Sultanbeyli
-Sultangazi
-Şile
-Şişli
-Tuzla
-Ümraniye
-Üsküdar
-Zeytinburnu
-
-
-//İzmir
-Aliağa
-Balçova
-Bayındır
-Bayraklı
-Bergama
-Beydağ
-Bornova
-Buca
-Çeşme
-Çiğli
-Dikili
-Foça
-Gaziemir
-Güzelbahçe
-Karabağlar
-Karaburun
-Karşıyaka
-Kemalpaşa
-Kınık
-Kiraz
-Konak
-Menderes
-Menemen
-Narlıdere
-Ödemiş
-Seferihisar
-Selçuk
-Tire
-Torbalı
-Urla
-
-
-//Kahramanmaraş
-Afşin
-Andırın
-Çağlayancerit
-Ekinözü
-Elbistan
-Göksun
-Nurhak
-Pazarcık
-Türkoğlu
-
-//Karabük
-Eflani
-Eskipazar
-Ovacık
-Safranbolu
-Yenice
-
-//Karaman
-Ayrancı
-Başyayla
-Ermenek
-Kazımkarabekir
-Sarıveliler
-
-//Kars
-Akyaka
-Arpaçay
-Digor
-Kağızman
-Sarıkamış
-Selim
-Susuz
-
-//Kastamonu
-Abana
-Ağlı
-Araç
-Azdavay
-Bozkurt
-Cide
-Çatalzeytin
-Daday
-Devrekani
-Doğanyurt
-Hanönü
-İhsangazi
-İnebolu
-Küre
-Pınarbaşı
-Seydiler
-Şenpazar
-Taşköprü
-Tosya
-
-//Kayseri
-Akkışla
-Bünyan
-Develi
-Felahiye
-Hacılar
-İncesu
-Kocasinan
-Melikgazi
-Özvatan
-Pınarbaşı
-Sarıoğlan
-Sarız
-Talas
-Tomarza
-Yahyalı
-Yeşilhisar
-
-
-//Kırıkkale
-Bahşılı
-Balışeyh
-Çelebi
-Delice
-Karakeçili
-Keskin
-Sulakyurt
-Yahşihan
-
-//Kırklareli
-Babaeski
-Demirköy
-Kofçaz
-Lüleburgaz
-Pehlivanköy
-Pınarhisar
-Vize
-
-//Kırşehir
-Akçakent
-Akpınar
-Boztepe
-Çiçekdağı
-Kaman
-Mucur
-
-//Kilis
-Elbeyli
-Musabeyli
-Polateli
-
-//Kocaeli
-Başiskele
-Çayırova
-Darıca
-Derince
-Dilovası
-Gebze
-Gölcük
-İzmit
-Kandıra
-Karamürsel
-Kartepe
-Körfez
-
-//Konya
-Ahırlı
-Akören
-Akşehir
-Altınekin
-Beyşehir
-Bozkır
-Cihanbeyli
-Çeltik
-Çumra
-Derbent
-Derebucak
-Doğanhisar
-Emirgazi
-Ereğli
-Güneysınır
-Hadım
-Halkapınar
-Hüyük
-Ilgın
-Kadınhanı
-Karapınar
-Karatay
-Kulu
-Meram
-Sarayönü
-Selçuklu
-Seydişehir
-Taşkent
-Tuzlukçu
-Yalıhüyük
-Yeniceoba
-Yunak
-
-//Kütahya
-Altıntaş
-Aslanapa
-Çavdarhisar
-Domaniç
-Dumlupınar
-Emet
-Gediz
-Hisarcık
-Pazarlar
-Şaphane
-Simav
-Tavşanlı
-
-//Malatya
-Akçadağ
-Arapgir
-Arguvan
-Battalgazi
-Darende
-Doğanşehir
-Doğanyol
-Hekimhan
-Kale
-Kuluncak
-Pütürge
-Yazıhan
-Yeşilyurt
-Gürün
-
-//Manisa
-Ahmetli
-Akhisar
-Alaşehir
-Demirci
-Gölmarmara
-Gördes
-Kırkağaç
-Köprübaşı
-Kula
-Salihli
-Sarıgöl
-Saruhanlı
-Selendi
-Soma
-Turgutlu
-
-//Mardin
-Dargeçit
-Derik
-Kızıltepe
-Mazıdağı
-Midyat
-Nusaybin
-Ömerli
-Savur
-Yeşilli
-
-//İçel
-Mersin
-Akdeniz
-Anamur
-Aydıncık
-Bozyazı
-Çamlıyayla
-Erdemli
-Gülnar
-Mezitli
-Mut
-Silifke
-Tarsus
-Toroslar
-Yenişehir
-
-//Muğla
-Bodrum
-Dalaman
-Datça
-Fethiye
-Kavaklıdere
-Köyceğiz
-Marmaris
-Milas
-Ortaca
-Ula
-Yatağan
-
-//Muş
-Bulanık
-Hasköy
-Korkut
+Fatih Mh.
+Hocaömer
+Hocaömer Mh.
+İmamağa
+İmamağa Mh.
+Kapcami
+Kapcami Mh.
+Kayalık
+Kayalık Mh.
 Malazgirt
-Varto
-
-//Nevşehir
-Acıgöl
-Avanos
-Derinkuyu
-Gülşehir
-Hacıbektaş
-Kozaklı
-Ürgüp
-
-//Niğde
-Altunhisar
-Bor
-Çamardı
-Çiftlik
-Ulukışla
-
-//Ordu
-Akkuş
-Aybastı
-Çamaş
-Çatalpınar
-Çaybaşı
-Fatsa
-Gölköy
-Gülyalı
-Gürgentepe
-İkizce
-Kabadüz
-Kabataş
-Korgan
-Kumru
-Mesudiye
-Perşembe
-Ulubey
-Ünye
-
-//Osmaniye
-Bahçe
-Düziçi
-Hasanbeyli
-Kadirli
-Sumbas
-Toprakkale
-
-//Rize
-Ardeşen
-Çamlıhemşin
-Çayeli
-Derepazarı
-Fındıklı
-Güneysu
-Hemşin
-İkizdere
-İyidere
-Kalkandere
-Pazar
-
-//Sakarya
-Adapazarı
-Akyazı
-Arifiye
-Erenler
-Ferizli
-Geyve
-Hendek
-Karapürçek
-Karasu
-Kaynarca
-Kocaali
-Pamukova
-Sapanca
-Serdivan
-Söğütlü
-Taraklı
-
-//Samsun
-Alaçam
-Asarcık
-Atakum
-Ayvacık
-Bafra
-Canik
-Çarşamba
-Havza
-İlkadım
-Kavak
-Ladik
-Ondokuzmayıs
-Salıpazarı
-Tekkeköy
-Terme
-Vezirköprü
-Yakakent
-
-//Siirt
-Aydınlar
-Baykan
-Eruh
-Kurtalan
-Pervari
-Şirvan
-
-//Sinop
-Ayancık
-Boyabat
-Dikmen
-Durağan
-Erfelek
-Gerze
-Saraydüzü
-Türkeli
-
-
-//Sivas
-Akıncılar
-Altınyayla
-Divriği
-Doğanşar
-Gemerek
-Gölova
-Hafik
-İmranlı
-Kangal
-Koyulhisar
-Sivas
-Suşehri
-Şarkışla
-Ulaş
-Yıldızeli
-Zara
-Gürün
-
-//Şanlıurfa
-Akçakale
-Birecik
-Bozova
-Ceylanpınar
-Halfeti
-Harran
-Hilvan
-Siverek
-Suruç
-Viranşehir
-
-//Şırnak
-Beytüşşebap
-Cizre
-Güçlükonak
-İdil
-Silopi
-Uludere
-
-//Tekirdağ
-Çerkezköy
-Çorlu
-Hayrabolu
-Malkara
-Marmara Ereğlisi
-Muratlı
-Saray
-Şarköy
-
-//Tokat
-Almus
-Artova
-Başçiftlik
-Erbaa
-Niksar
-Pazar
-Reşadiye
-Sulusaray
-Turhal
+Malazgirt Mh.
+Mara
+Mara Mh.
+Mehmet Akif
+Mehmet Akif Mh.
+Musalla
+Musalla Mh.
+Sıratut
+Sıratut Mh.
+Siteler
+Siteler Mh.
+Turgut Reis
+Turgut Reis Mh.
+Ulucami
+Ulucami Mh.
+Varlık
+Varlık Mh.
+Yavuz Selim
+Yavuz Selim Mh.
+Yenipınar
+Yenipınar Mh.
 Yeşilyurt
-Zile
-
-//Trabzon
-Akçaabat
-Araklı
-Arsin
-Beşikdüzü
-Çarşıbaşı
-Çaykara
-Dernekpazarı
-Düzköy
-Hayrat
-Köprübaşı
-Maçka
-Of
-Sürmene
-Şalpazarı
-Tonya
-Vakfıkebir
-Yomra
-
-//Tunceli
-Çemişgezek
-Hozat
-Mazgirt
-Nazimiye
-Ovacık
-Pertek
-Pülümür
-
-//Uşak
-Banaz
-Eşme
-Karahallı
-Sivaslı
-Ulubey
-
-//Van
-Bahçesaray
-Başkale
-Çaldıran
-Çatak
-Edremit
-Erciş
-Gevaş
-Gürpınar
-Muradiye
-Özalp
-Saray
-
-//Yalova
-Altınova
-Armutlu
-Çınarcık
-Çiftlikköy
-Termal
-
-//Yozgat
-Akdağmadeni
-Aydıncık
-Boğazlıyan
-Çandır
-Çayıralan
-Çekerek
-Kadışehri
-Saraykent
-Sarıkaya
+Yeşilyurt Mh.
+Yunus Emre
+Yunus Emre Mh.
+//AFYON
+&&Merkez
+Cumhuriyet
+Dairecep
+Derviş Paşa
+Dumlupınar
+Esentepe
+Gazi
+Gündoğmuş
+Güvenevler
+Hacı Alioğlu
+Hacı Cafer
+Hacı Eyüp
+Hacı Mustafa
+Hacı Nuh
+Hattat Karahisar
+İstiklal
+Karaman
+Kasımpaşa
+Kayadibi
+Kocatepe
+Marulcu
+Mecidiye
+Nazmi Saatçi
+Osmangazi
+Örnekevler
+Selçuklu
+Sümer
+Yarenler
+Zafer
+//AMASYA
+&&MERKEZ
+Akbilek
+Bahçeleriçi
+Beyazıt Paşa
+Dere
+Ellibeşevler
+Gökmedrese
+Gümüşlü
+Hacı İlyas
+Hacılar Meydanı
+Hatuniye
+Hızırpaşa
+Mehmet Paşa
+Nergiz
+Pirinççi
+Sofular
+Şehirüstü
+Üçler
+Yuvacık Köyü
+Yüzevler
+//ANKARA
+&&BATIKENT 
+BATI SİTESİ
+İLKYERLEŞİM
+KARDELEN
+UĞURMUMCU
+Yeni Batı Mh.
+50. Yıl Mh.
+Abidinpaşa Mh.
+AHMET TANER KIŞLALI
+Akpınar Mh.
+Anıttepe Mh.
+Arka Topraklık Mh.
+Aşağı Dikmen Mh.
+Aşağı Öveçler Mh.
+Aşıkpaşa Mh.
+Ata Mh.
+Aydınlar Mh.
+Ayrancı Mh.
+Aziziye Mh.
+Bademlidere Mh.
+Bağcılar Mh.
+BAHÇELİEVLER
+BAL KİRAZ
+Barbaros Mh.
+Bayraktar Mh.
+BEŞTEPE 
+Beytepe Mh.
+Birlik Mh.
+Büyükesat Mh.
+CEBECİ
+Cevizlidere Mh.
+Cumhuriyet Mh.
+Çamlıtepe Mh.
+Çankaya Mh.
+ÇAYYOLU
+Çiğdem mah.
+Çukurambar Mh.
+DEMİRLİBAHÇE
+Devlet Mh.
+Dilekler Mh.
+Doğuş Mh.
+Ehlibeyt Mh.
+Emek Mh.
+Emniyet Mh.
+Ertuğrulgazi Mh.
+Erzurum Mh.
+ESATOGLU
+ESATOĞLU
+Fakülteler Mh.
+Fidanlık Mh.
+GAZİ
+Gaziosmanpaşa Mh.
+Gökkuşağı Mh.
+Göktürk Mh.
+GÜVEN
+Güvenevler Mh.
+Güzeltepe Mh.
+Hacettepe Üni. Beytepe Kampüsü
+Hacettepe Üni. Sıhhiye Kampüsü
+Harbiye Mh.
+Hilal Mh.
+Huzur Mh.
+İleri Mh.
+İlkadım Mh.
+İlkbahar Mh.
+İlker Mh.
+İncesu Mh.
+İşçi Blokları Mh.
+Karapınar Mh.
+Kavaklıdere Mh.
+Kazım Özalp Mh.
+Keklik Pınarı Mh.
+Kırkkonaklar Mh.
+KIZILAY
+Kızılırmak Mh.
+Kocatepe Mh.
+KONUTKENT
+KORKUTREİS
+KORU
+Küçükesat Mh.
+Kültür Mh.
+Malazgirt Mh.
+Maltepe Mh.
+Mebusevleri Mh.
+Meşrutiyet Mh.
+Metin Akkuş
+Metin Oktay Mh.
+Mimar Sinan Mh.
+Muhsin Ertuğrul Mh.
+Murat Mh.
+Mutlukent Mh.
+Mürsel Uluç
+Naci Çakır Mh.
+NECATİBEY
+Oğuzlar Mh.
+Oran
+Oran Mh.
+Osman Temiz Mh.
+Ön Cebeci Mh.
+Öveçler Mh.
+Remzi Oğuz Arık Mh.
+Sağlık Mh.
+SAKARYA
+Sancak Mh.
+SEYHAN
+Seyranbağları Mh.
+Sokullu Mehmet Paşa Mh.
+Şehit Cengiz Karaca Mh.
+Şehit Cevdet Özdemir Mh.
+ŞÜKRİYE
+Tınaztepe Mh.
+Topraklık Mh.
+TÜRK KONUT
+Umut Mh.
+ÜMİT
+Yeşilkent Mh.
+Yıldızevler Mh.
+Yukarı Bahçelievler Mh.
+Yukarı Dikmen Mh.
+Yukarı Öveçler Mh.
+Yücetepe Mh.
+YÜZÜNCÜYIL
+Zafertepe Mh.
+&&YENİMAHALLE / ETLİK 
+A.EĞLENCE
+AYVALI
+BASIN EVLERİ
+ÇİÇEKLİ
+Etlik Mh.
+İNCİRLİ
+RAGIP TÜZÜN
+&&ETİMESGUT
+30 Ağustos Mh.
+Ahi Mesut Mh.
+Alsancak Mh.
+ALTAY
+Atakent
+Atakent Mh.
+Ayyıldız
+DEVLET
+Ertuğrulgazi
+Eryaman
+Eryaman (1-2. Etap )
+Eryaman (4-5. Etap )
+Eryaman Mh.
+ETILER
+Etiler Mh.
+Göksu
+Güzelkent Mh.
+HAVA HASTANESI
+İstasyon Mh.
+Kazım Karabekir Mh.
+Oğuzlar
+Piyade Mh.
+Selçuklu
+SUBAY EVLERİ
+SUBAYEVLERİ
+Süvari Mh.
+ŞEHİT OSMAN AVCI
+ŞEKER
+Topçu
+Tunahan Mh.
+Yeşilova
+Yeşilova Mh.
+&&100.YIL
+100.YIL
+&&BALGAT
+BALGAT
+&&ALTINDAĞ
+Ahiler Mh.
+Ali Ersoy Mh.
+Altınpark Mh.
+Anafartalar Mh.
+Aydınlıkevler Mh.
+DEMIRTAS MAH
+DOGANBEY MAH
+Güneşevler Mh.
+Hacettepe Mh.
+Kale Mh.
+MISAKIMILLI MAH
+Necatibey Mh.
+Sakarya Mh.
+Seyfi Demirsoy Mh.
+Şükriye Mh.
+YEGENBEY MAH
+YENICE MAH
+&&BiLKENT
+Bilkent Üni.
+Hacettepe Üni. Beytepe Kampüsü
+Hacettepe Üni. Sıhhiyet Kampüsü
+ODTÜ Üni.
+ÜNİVERSİTELER
+&&KEÇİÖREN
+19 Mayıs Mh.
+23 Nisan Mh 
+Adnan Menderes Mh.
+Aktepe Mh 
+Aşağı Eğlence Mh.
+Ayvalı Mh.
+Bademlik Mh 
+Bağlarbaşı Mh.
+Basınevleri Mh.
+Çaldıran Mh
+Çiçekli Mh.
+Emrah Mh.
+Etlik Mh.
+Güçlükaya Mh.
+Hasköy Mh.
+İncirli Mh.
+Kalaba Mh.
+Kamil Ocak Mh.
+Karargahtepe Mh.
+Kavacık Subayevleri Mh.
+Köşk Mh.
+PINARBAŞI
+Şefkat Mh.
+Şenlik Mh.
+Tepebaşı Mh.
+Uyanış Mh.
+Yakacık Mh.
+Yeşiltepe Mh 
+&&YENİMAHALLE
+25 Mart Mh.
+ALACAATLI
+Aşağı Yahyalar Mh.
+Batı Sitesi Mh.
+Çarşı Mh.
+Çayyolu Mh.
+DEMET
+Demetevler Mh.
+Demetgül Mh.
+Demetlale Mh.
+Ergazi Mh.
+Ergenekon
+Esentepe Mh.
+FATİH SULTAN
+Gayret Mh.
+GIMAT
+Işınlar Mh.
+İlkyerleşim Mh.
+İvedik Mh.
+İvedik OSB
+Kardelen Mh.
+Kentkoop Mh.
+Konutkent Mh.
+Koru Mh.
+Macun Mh.
+Mehmet Akif Ersoy Mh.
+Ostim Mh.
+Ostim OSB
+Prof. Dr. Ahmet Taner Kışlalı Mh.
+Ragıp Tüzün Mh.
+SERHAT
+Tepealtı Mh.
+Turgut Özal Mh.
+Uğur Mumcu Mh.
+Ümit Mh.
+Varlık Mh.
+YAPRACIK
+Yaşamkent Mh.
+Yeni Batı Mh.
+Yeniçağ Mh.
+Yunus Emre Mh.
+&&SİNCAN
+Ahi Evran
+Ahi Evran Mh.
+Akşemsettin
+Akşemsettin Mh.
+Atatürk
+Atatürk Mh.
+İstasyon
+İstasyon Mh.
+Mareşal Çakmak
+Mareşal Çakmak Mh.
+Plevne
+Plevne Mh.
+Tandoğan
+Tandoğan Mh.
+Yunus Emre Mh.
+&&MAMAK
+Abidinpaşa Mh.
+Akşemsettin Mh.
+Balkiraz Mh.
+Boğaziçi Mh.
+Cengizhan Mh.
+Demirlibahçe Mh.
+Durali Alıç Mh.
+Dutluk Mh.
+Ege Mh.
+Fahri Korutürk Mh.
+General Zeki Doğan Mh.
+Kutlu Mh.
+Misket Mh.
+Mutlu Mh.
+Şafaktepe Mh.
+Şahintepe Mh.
+Şirintepe Mh.
+Üreğil Mh.
+&&PURSAKLAR
+AYYILDIZ
+FATİH
+KARACAÖREN
+MERKEZ
+SARAY FATİH
+YUNUSEMRE
+&&GÖLBAŞI
+Bahçelievler
+Eymir
+Gaziosmanpaşa
+Karşıyaka
+Örencik
+Seğmenler
+Şafak
+Yaylabağ
+//ANTALYA
+&&ALANYA
+BEKTAŞ
+BÜYÜKHASBAHÇE
+Cikcilli Bld.
+CUMHURİYET
+Çarşı Mh.
+Çıplaklı Bld.
+DİNEK
+FIĞLA
+Güller Pınarı
+Güller Pınarı Mh.
+Hacet Mh.
+Hisariçi Mh.
+Kadıpaşa Mh.
+Karakocalı Köyü
+Kargıcak Bld.
+Kestel Bld.
+Kızlar Pınarı Mh.
+Küçükhasbahçe Mh.
+Mahmutlar Bld.
+OBA
+Saray Mh.
+Sugözü Mh.
+Şekerhane Mh.
+TEPE
+TOPHANE
+Tosmur Bld.
+&&KONYAALTI
+Akkuyu Mh.
+Altınkum Mh.
+Arapsuyu Mh.
+Çakırlar Mh.
+Gökdere Mh.
+Gürsu Mh.
+Hurma Mh.
+Kuşkavağı Mh.
+Liman Mh.
+MOLLA YUSUF
+Öğretmen Evleri Mh.
+Pınarbaşı Mh.
+Sarısu Mh.
+Siteler Mh.
+Toros Mh.
+Uluç Mh.
+Uncalı Mh.
+&&MURATPAŞA
+Altındağ Mh.
+ARAPSUYU
+Bahçelievler Mh.
+Balbey Mh.
+Barbaros Mh.
+BAYINDIR
+Cumhuriyet Mh.
+Çağlayan Mh.
+Çaybaşı Mh.
+Demircikara Mh.
+Deniz Mh.
+Doğuyaka Mh.
+Elmalı Mh.
+Etiler Mh.
+Fener Mh.
+Gebizli Mh.
+Gençlik Mh.
+Güvenlik Mh.
+Güzelbağ Mh.
+Güzeloba Mh.
+Güzeloluk Mh.
+Haşimişcan Mh.
+KAZIMÖZALP CAD
+Kılınçarslan Mh.
+Kırcami Mh.
+Kışla Mh.
+Kızılarık Mh.
+Kızılsaray Mh.
+Kızıltoprak Mh.
+KONUKSEVER
+Mehmetçik Mh.
+Meltem Mh.
+Memurevleri Mh.
+Meydankavağı Mh.
+Muratpaşa Mh.
+PINARBAŞI
+Sedir Mh.
+Selçuk Mh.
+Sinan Mh.
+SOĞUKSU
+Şirinyalı Mh.
+Tahılpazarı Mh.
+Tarım Mh.
+Topçular Mh.
+Tuzcular Mh.
+Üçgen Mh.
+Varlık Mh.
+Yenigöl Mh.
+Yenigün Mh.
+Yeşilbahçe Mh.
+Yeşilova Mh.
+Yıldız Mh.
+Yüksekalan
+Yüksekalan Mh.
+Zerdalilik Mh.
+Zümrütova Mh.
+&&KEPEZ
+Kanal Mh.
+Kültür mah.
+Özgürlük Mh.
+Ulus Mh.
+Yeşiltepe Mh.
+Yükseliş Mh.
+Zafer Mh.
+&&Manavgat
+A. Hisar Mh.
+A. Pazarcı Mh.
+Aydınevler Mh.
+Bahçelievler Mh.
+Çağlayan Mh.
+Çeltikçi Köyü
+Emek Mh.
+Eski Hisar Mh.
+Hatipler Köyü
+Kasaplar Mh.
+Kavaklı Mh.
+Milli Egemenlik Mh.
+Mimar Sinan Mh.
+Örnek Mh.
+Salkım Evler Mh.
+Sanayi Mh.
+Sarılar Bld.
+Side Bld.
 Sorgun
-Şefaatli
-Yenifakılı
-Yerköy
-
-//Zonguldak
-Alaplı
-Çaycuma
-Devrek
-Gökçebey
-Kilimli
-Kozlu
-Karadeniz Ereğli
+Şelale Mh.
+Y. Hisar Mh.
+Y. Pazarcı Mh.
+Yayla Mh.
+//AYDIN
+&&KUŞADASI
+Alacamescit Mh.
+Bayraklıdede Mh.
+Camiatik Mh.
+Camikebir Mh.
+Cumhuriyet Mh.
+Dağ Mh.
+Ege Mh.
+Hacıfeyzullah Mh.
+İkiçeşmelik Mh.
+Kadınlar Denizi Mh.
+Kuştur mevkii
+Türkmen Mh.
+&&DİDİM
+Altınkum Mh.
+Cumhuriyet Mh.
+Çamlık Mh.
+Didim
+Efeler Mh.
+Göçler
+Hisar
+Mersindere
+Yalıköy
+Yeni Mh.
+Adnan Menderes Mh.
+&&MERKEZ
+Ata Mh.
+Cuma Mh.
+Cumhuriyet Mh.
+EFELER
+FATİH
+GİRNE
+Güzelhisar Mh.
+Hasanefendi-Ramazan Paşa Mh.
+ILICABAŞI
+İSTİKLAL
+KEMER
+Köprülü-Veysipaşa Mh.
+Kurtuluş Mh.
+MESUDİYE
+MEŞRUTİYET
+MİMARSİNAN
+Orta Mh.
+OSMAN YOZGATLI
+RAMAZANPAŞA
+VEYSİPAŞA
+Yedi Eylül Mh.
+Zafer Mh.
+ZEYBEK
+//BALIKESİR
+&&MERKEZ
+1. Gündoğan Mh.
+1. Oruçgazi Mh.
+2. Oruçgazi Mh.
+Akıncılar Mh.
+Ali Hikmet Paşa Mh.
+Altı Eylül Mh.
+Atatürk Mh.
+Bahçelievler Mh.
+Ege Mh.
+Eski Kuyumcular Mh.
+Gümüşçeşme Mh.
+Hacı İlbey Mh.
+Hasan Basri Çantay Mh.
+Hisariçi Mh.
+Karesi Mh.
+Kasaplar Mh.
+Maltepe Mh.
+Paşa Alanı Mh.
+Plevne Mh.
+Toygar Mh.
+Yıldırım Mh.
+&&BANDIRMA
+17 Eylül Mh.
+600 EVLER
+Bentbaşı Mh.
+Çınarlı Mh.
+Dere Mh.
+Günaydın Mh.
+Hacı Yusuf Mh.
+Haydar Çavuş Mh.
+İhsaniye Mh.
+Paşabayır Mh.
+PAŞAKENT
+PAŞAKONAK
+Paşamescit Mh.
+Sunullah Mh.
+&&Edremit
+Camivasat Mh.
+Cennet Ayağı Mh.
+Cumhuriyet Mh.
+Darsofa Mh.
+Gazi Celal Mh.
+Gazi İlyas Mh.
+Hacı Tuğrul Mh.
+Hamidiye Mh.
+Hekimzade Mh.
+İbrahimce Mh.
+Kadıköy Bld.
+Kapıcıbaşı Mh.
+Soğanyemez Mh.
+Turhanbey Mh.
+Tuzcumurat Mh.
+//BİLECİK
+&&Bozüyük
+4.Eyl
+Akpınar Köyü
+Çarşı
+Kasımpaşa
+Saraycık Köyü
+Tekke
+Yediler
+Yeni
+Yeşilkent
+//BOLU
+&&MERKEZ
+Aktaş Mh.
+Bahçelievler Mh.
+Beşkavaklar Mh.
+Borazanlar Mh.
+Büyükcami Mh.
+GÖLYÜZÜ
+Gölyüzü Mh.
+İhsaniye Mh.
+İzzet Baysal Mh.
+Karaçayır Mh.
+KARAMANLI
+Karamanlı Mh.
+Kültür Mh.
+Sandallar Mh.
+Semerkant Mh.
+Sümer Mh.
+Tabaklar Mh.
+//BURSA
+&&NİLÜFER
+Adnan Menderes Mh.
+Ahmet Yesevi Mh.
+Alaaddinbey Mh.
+Altınşehir Mh.
+Ataevler Mh.
+Balat Mh.
+Barış Mh.
+Beşevler Mh.
+Cumhuriyet Mh.
+Çamlıca Mh.
+Dumlupınar
+Ertuğrul mah.
+Ertuğrul Mh.
+Esentepe Mh.
+Fethiye Mh.
+Işık Tepe Mh.
+İhsaniye Mh.
+Karaman Mh.
+Konak Mh.
+Kurtuluş
+Küçük Sanayii
+Kültür Mh.
+Minareli Çavuş Mh.
+Odunluk
+Odunluk Mh.
+ORGANİZE SAN BÖL.
+Özlüce
+Özlüce Mh.
+Sakarya
+Uludağ Üni.
+Üçevler Mh.(30 dakika garantisi yoktur.)
+Ürünlü
+Yüzüncü Yıl Mah.
+Zafer
+&&OSMANGAZİ
+Adalet Mh.
+Ahmetpaşa Mh.
+Akpınar Mh.
+Aktarhüssam Mh.
+Alaaddin Mh.
+Alacahırka Mh.
+Alacamescit Mh.
+Alemdar Mh.
+Alipaşa Mh.
+Altıparmak Mh.
+Bademli Mh.
+Bağlarbaşı Mh.
+Çekirge Mh.
+Çırpan Mh.
+Demirkapı Mh.
+Demirtaşpaşa Mh.
+Dikkaldırım
+Dikkaldırım Mh.
+Doburca Mh.
+DOGANBEY 
+Ebu İshak Mh.
+Elmasbahçeler Mh.
+EMEK
+Fatih Sultan Mehmet Mh.
+GAZCILAR
+Gaziakdemir Mh.
+Geçit Mh.
+Hacı İlyas Mh.
+Hamitler Mh. ( Hamitler Toki'ye servis bulunmamaktadır. )
+Hamitler Mh. ( Servis süresi 45 Dk. )
+Hamzabey Mh.
+Hocaalizade Mh.
+Hocahasan Mh.
+Hüdavendigar Mh.
+Hürriyet Mh.
+İbrahimpaşa Mh.
+İnkaya Mh.
+İntizam Mh.
+İstiklal Mh.
+Kavaklı Mh.
+Kayhan Mh.
+Kırcaali Mh.
+Kiremitçi Mh.
+Kocanaip Mh.
+KORUPARK
+Kuruçeşme Mh.
+Kükürtlü Mh.
+M. Zekai Gümüşdiş Mh.
+Maksem Mh.
+Mehmet Akif Mh.
+Mollagürani Mh.
+Muradiye Mh.
+Nalbantoğlu Mh.
+NİLÜFER KÖY 
+Orhanbey Mh.
+ORTAPAZAR CADDESİ
+Osmangazi Mh.
+Pınarbaşı Mh.
+Reyhan Mh.
+Santral Garaj Mh.
+Selimiye Mh.
+Sırameşeler
+Sırameşeler Mh.
+Soğanlı Mh.
+Soğukkuyu Mh.
+Şehabettinpaşa Mh.
+Şehreküstü Mh.
+Tahtakale Mh.
+Tayakadın Mh.
+Tuzpazarı Mh.
+Ulu Mh.
+Yahşibey Mh.
+Yenikaraman Mh.
+Yunuseli Mh. ( Servis süresi 45 Dk. )
+&&YILDIRIM
+75. Yıl
+Bağlaraltı
+BAHÇELİEVLER
+Baruthane Mah.
+Beyazıt mah.
+Davutdede Mh.
+Davutkadı Mh.
+Eğitim Mah.
+Emirsultan Mh.
+Erikli
+Esenevler
+GÜLLÜK
+Hacıseyfettin Mh.
+Hocataşkın Mh.
+KAPLIKAYA
+Kaplıkaya Mh.
+Karaağaç Mah.
+Karamazak Mh.
+Kurtoğlu Mh.
+Maltepe Mah.
+Mehmet Akif Ersoy Mh.
+Meydancık Mh.
+Mimarsinan
+MollaArap Mah.
+Musababa Mh.
+Namazgah Mh.
+Piremir Mh.
+SELÇUKBEY
+Selimzade Mh.
+Sıracevizler Mh.
+Sinandede Mh.
+Siteler
+Şükraniye Mh.
+TEFERRÜÇ
+Umurbey mah.
+Yediselviler Mh.
+Yeşil Mh.
+Yıldırım Mh.
+Yiğitler
+Zümrütevler Mah.
+&&Gemlik
+Adliye Köyü
+Ata
+Balıkpazarı
+Büyükkumla Köyü
+Cihatlı Köyü
+Cumhuriyet
+Demirsubaşı
+Dr. Ziya Kaya
+Engürücük Köyü
+Eşref Dinçer
+Fevziye Köyü
+Fındıcak Köyü
+Gençali
+Güvenli Köyü
+Güzelyalı
+Halitpaşa
+Hamidiye
+Hamidiye Köyü
+Haydariye Köyü
+Hisar
+Karacaali Köyü
+Katırlı Köyü
+Kayhan
+Kurtul Köyü
+Memireis
+Muratoba Köyü
+Narlı Köyü
+Orhaniye
+Osmaniye
+Parsbey
+Siteler
+Şahinyurdu Köyü
+Şükriye Köyü
+Yeni
+Yeniköy Köyü
+&&MUDANYA
+Bademli Mh.
+&&İnegöl
+Burhaniye Mh.
+Cuma Mh.
+Hamidiye Mh.
+Kemalpaşa Mh.
+Mahmudiye Mh.
+Orhaniye Mh.
+Osmaniye Mh.
+Sinanbey Mh.
+Süleymaniye Mh.
+Turgutalp Mh.
+Yenice Mh.
+//ÇANAKKALE
+&&MERKEZ
+Barbaros Mh.
+Cevat Paşa Mah.
+Cevat Paşa Mh.
+Esenler Mh.
+Fevzipaşa Mh.
+İsmetpaşa Mh.
+Kemalpaşa Mh.
+Kepez Bld.
+Kepez Bld. (Boğazkent Mh.)
+Kepez Bld. (Cumhuriyet Mh.)
+Kepez Bld. toki konutları
+Namık Kemal Mh.
+//ÇORUM
+&&MERKEZ
+Ak kent 
+Bahçelievler Mh.
+Buharaevler
+Çepni
+Çöplü
+Karakeçili Mh.
+Kunduzhan
+Ulukavak
+Ulukavak Mh.
+Üçtutlar
+Üçtutlar Mh.
+Yavruturna Mh.
+Yeniyol
+Yeniyol Mh.
+//DENİZLİ
+&&MERKEZ
+15.May
+Adalet Mh.
+Akkonak Mh.
+Altıntop
+ALTINTOP (45 dk. Garantisi vardır.)
+ASMALIEVLER (45 dk. Garantisi vardır.)
+Atalar mah.
+Bahçelievler Mh.
+Bereketevler Mh.
+Çamlaraltı Mh.
+Çamlık mah.
+ÇAYBAŞI (45 dk. Garantisi vardır.)
+Değirmenönü
+Değirmenönü Mh.
+DELİKLİÇINAR (45 dk. Garantisi vardır.)
+Deliktaş
+Erenler Mh.
+FATİH (45 dk. Garantisi vardır.)
+Fesleğen mah.
+GÜNBATTI(45 dk. Garantisi vardır.)
+GÜNDOĞDU (45 dk garantisi vardır.)
+GÜRCAN (45 dk. Garantisi vardır.)
+Hacıkaplanlar Mh.
+İncilipınar mah.
+İstiklal mah.
+Karahasanlı Mh. ( Servis süremiz 45 Dk.)
+Karaman
+Karaman Mh.
+KAYALIK (45 dk. Garantisi vardır.)
+KİREMİTÇİ  (45 dk. Garantisi vardır.)
+Kuşpınar mah.
+KUYUPINAR (45 dk. Garantisi vardır.)
+Mehmetçik
+Mehmetçik mah.
+Merkez Efendi Mh.
+Muratdede Mh.
+Pelitbağ mah.
+Saltak Mh.
+Saraylar
+SARAYLAR (45 dk. Garantisi vardır.)
+selçukbey mh ( Servis Süresi 45 dakikadır )
+Selçukbey Mh. ( Servis süremiz 45 Dk. )
+Sırakapılar
+SIRAKAPILAR (45 dk. Garantisi vardır.)
+Siteler mah.
+Sümer
+Topraklık
+TOPRAKLIK (45 dk. Garantisi vardır.)
+Üçler Beldesi - Üçler Mh. ( Servis süremiz 45 Dk.)
+YENİ (45 dk. Garantisi vardır.)
+Yenişehir Mh.
+Yeşilköy Mh.
+YUNUS EMRE (45 dk. Garantisi vardır.)
+//DİYARBAKIR
+&&Yenişehir
+Fabrika
+Ferit Köşk
+Kooperatifler
+Seyrantepe Sanayi
+Yenişehir
+&&Bağlar
+Bağcılar
+Kaynartepe
+Muradiye
+Selahattin Eyyubi
+Şeyh Şamil
+&&Kayapınar
+Huzurevleri
+Peyas
+Talaytepe
+//EDİRNE
+&&MERKEZ
+1. Murat Mh.
+Abdurrahman Mh.
+Babademirtaş Mh.
+Barutluk Mh.
+Bosna Köyü
+Çavuşbey Mh.
+Dilaverbey Mh.
+Fatih Mh.
+Hasanağa Köyü
+İstasyon Mh.
+Koca Sinan Mh.
+Medrese Ali Bey Mh.
+MEDRESE ALİBEY
+Menzilahır Mh.
+Meydan Mh.
+Mithat Paşa Mh.
+Nişancıpaşa Mh.
+Sabuni Mh.
+Sarıcapaşa Mh.
+Şükrü Paşa Mh.
+T.PAŞA
+Talatpaşa Mh.
+Umurbey Mh.
+Yancıkçı Şahin Mh.
+&&Keşan
+Aşağı Zaferiye
+Büyük Cami
+Cumhuriyet
+İspat Cami
+Mustafa Kemal Paşa
+Yeni
+Yenimescit
+Yukarı Zaferiye
+//ESKİŞEHİR
+&&TEPEBAŞI
+Bahçelievler Mh.
+BATIKENT
+BATIKENT2.KISIM
+Cumhuriye
+Cumhuriye Mh.
+Ertuğrulgazi Mh.
+ESENTEPE
+Eskibağlar Mh.
+FATİH
+Güllük Mh.
+Hacı Ali Bey Mh.
+Hacı Seyit
+Hacı Seyit Mh.
+Hayriye Mh.
+Hoşnudiye Mh. ( 30 Dakika garantisi bulunmamaktadır. )
+IŞIKLAR
+İhsaniye Mh.
+İSTİKLAL ( 30 Dakika garantisi bulunmamaktadır. )
+MAMURE
+Merkez Yeni
+MUSTAFA KEMAL PAŞA
+Ömerağa Mh.
+SÜTLÜCE
+ŞEKER
+ŞİRİNTEPE
+Tunalı Mh.
+ULUÖNDER
+Yenibağlar Mh.
+Yeşiltepe Mh.
+Zafer Mh.
+&&ODUNPAZARI
+Akarbaşı
+Akarbaşı Mh.
+AKCAALAN
+Akcami
+Akçağlan
+ALANONU
+Alanönü
+Arifiye
+Arifiye Mh.
+Büyükdere Mh.
+Cunudiye Mh.
+DELİKLİTAŞ
+Gökmeydan
+Göztepe Mh.
+İstiklal Mh. ( 30 Dakika garantisi bulunmamaktadır. )
+Kırmızıtoprak Mh.
+KURTULUS
+Kurtuluş
+Osmangazi Mh.
+Sümer Mh.
+Vişnelik
+Vişnelik Mh.
+YENI KENT
+Yenidoğan
+YILDIZ TEPE
+//GAZİANTEP
+&&Şehitkamil
+Atatürk Mh.
+Batıkent Mh.
+Budak Mh.
+Değirmiçem Mh.
+Emek Mh.
+Fatih Mh.
+Gazi Mh.
+Güvenevler Mh.
+İncili Pınar Mh.
+Mücahitler Mh.
+Pancarlı Mh.
+Sarıgüllük Mh.
+Şehirgösteren Mh.
+Ulus Mh.
+&&ŞAHİNBEY
+23 Nisan Mh.
+60. Yıl Mh.
+Beyazlar
+Binevler Mh.
+Deniz Mh.
+Fidanlık
+Güneykent Mh.
+Karataş Mh.
+Konak Mh.
+Öğretmen Evleri Mh.
+Şahintepe Mh.
+YEDİTEPE
+//HATAY
+&&MERKEZ
+Akasya Mh.
+AKBABABA
+Akdeniz
+AKEVLER
+Aksaray Mh.
+Altınçay
+Armutlu
+Aşağıokçular Köyü
+Cebrail
+Cebrail Mh.
+Cumhuriyet
+Çekmece Bucağı
+Elektrik
+Emek Mh.
+Esenlik
+Esentepe
+Gazi
+General Şükrü Kanatlı Mh.
+Güllü Bahçe
+Haraparası Mh.
+Kışla Saray
+Küçükdalyan Bld.
+MEYDAN
+Odabaşı Bld. (Kavaslı Mh.)
+Saraykent Mh.
+Sümerler
+Turunçlu Bld.
+ULUCAMİ
+Ulucamii
+Ürgen Paşa Mh.
+Zenginler
+&&İSKENDERUN
+Barbaros Mh.
+Cumhuriyet Mh.
+Çay Mh.
+Dumlupınar Mh.
+Hürriyet Mh.
+Kurtuluş Mh.
+MEYDAN
+Muradiye Mh.
+Pınarbaşı Mh.
+Pirireis Mh.
+Savaş Mh.
+Süleymaniye Mh.
+Yenişehir Mh.
+//ISPARTA
+&&MERKEZ
+Bağlar Mh.
+Bahçelievler Mh.
+Çelebiler Mh.
+Doğancı Mh.
+Gazi Kemal Mh.
+Gülistan Mh.
+Hızırbey Mh.
+İskender Mh.
+İstiklal Mh.
+Karaağaç Mh.
+Keçeci Mh.
+Kepeci Mh.
+Kurtuluş Mh.
+Kutlubey Mh.
+Pirimehmet Mh.
+Turan Mh.
+Yayla Mh.
+Yedişehitler Mh.
+//MERSİN
+&&YENİŞEHİR
+AYDINLIKEVLER 
+BAHÇELİEVLER 
+CUMHURİYET 
+DUMLUPINAR 
+GAZİ 
+GÜVENEVLER 
+HÜRRİYET 
+İNÖNÜ 
+PALMİYE 
+PİRİREİS 
+&&TARSUS
+82 EVLER
+ANIT
+CAMİNUR
+CUMHURİYET
+ÇAĞLAYAN
+DUATEPE
+ESKİ ÖMERLİ
+FATİH
+FEVZİ ÇAKMAK
+GÖZLÜKULE
+İSMETPAŞA
+KIZILMURAT
+MİTHATPAŞA
+ÖĞRETMENLER
+REŞADİYE
+ŞEHİT İSHAK
+ŞEHİT KERİM
+ŞEHİT MUSTAFA
+TEKKE
+YENİ ÖMERLİ
+YEŞİLYURT
+&&Mezitli
+Akdeniz
+Atatürk
+Fatih
+Menderes
+Merkez
+Viranşehir
+Yeni
+//İSTANBUL
+&&BEŞİKTAŞ
+Abbasağa Mh.
+Akat Mh.
+Arnavutköy Mh.
+Balmumcu Mh.
+Bebek Mh.
+Cihannüma Mh.
+ÇELİKTEPE
+Dikilitaş Mh.
+Etiler Mh.
+Gayrettepe Mh.
+GÜLTEPE
+HISAR USTU
+Kanyon AVM.
+Konaklar Mh.
+Kuruçeşme Mh.
+Kültür Mh.
+Levazım Mh.
+Levent Mh.
+Mecidiye Mh.
+Muradiye Mh.
+Nispetiye Mh.
+Ortaköy Mh.
+Sinanpaşa Mh.
+Türkali Mh.
+Ulus Mh.
+Vişnezade Mh.
+Yıldız Mh.
+&&KAĞITHANE
+Çağlayan Mh. ( Servis süresi 45 Dk. )
+Çeliktepe Mh.
+Emniyetevleri Mh.
+GULTEPE
+Gültepe Mh.
+Gürsel Mh.
+Hamidiye Mh.
+Harmantepe Mh.
+Hürriyet Mh. ( Servis süresi 45 Dk. )
+KAĞITHANE
+Mehmet Akif Ersoy Mh.
+Merkez
+Merkez Mh.
+Mevlana Mh.
+Nurtepe Mh.
+Ortabayır Mh.
+Sanayi Mh.
+Seyrantepe Mh.
+Şirintepe Mh.
+Talatpaşa Mh.
+Telsizler Mh.
+Yahya Kemal Mh.
+Yeşilce Mh.
+&&ÜMRANİYE
+Adem Yavuz Mh.
+Altınşehir
+Altınşehir Mh.
+Armağan Evler Mh.
+Aşağı Dudullu Mh.
+Atakent Mh.
+Ataşehir Atatürk Mh.
+Atatürk Mh.
+Baklacı Mh.
+BOZTEPE
+Cemil Meriç Mh.
+Çakmak
+Çakmak Mh.
+Çamlık
+Çamlık Mh.
+Dudullu OSB
+Dumlupınar Mh.
+Elmalıkent Mh.
+Esenevler
+Esenevler Mh.
+Esenkent Mh.
+Esenşehir
+Esenşehir Mh.
+Fatih Sultan Mehmet
+Fatih Sultan Mehmet Mh.
+Hekimbaşı Mh.
+Huzur Mh.
+Ihlamurkuyu Mh.
+İnkılap Mh.
+İstiklal Mh.
+KARADENİZ
+Kazım Karabekir Mh.
+KOCATEPE
+MADENLER
+Madenler Mh.
+Mehmet Akif
+Mehmet Akif Mh.
+N.KEMAL /ÜMRANİYE ÇARŞI/
+Namık Kemal Mh.
+Necip Fazıl Mh.
+ORGANİZE SANAYİ
+Parseller Mh.
+Saray Mh.
+SITE
+Site
+Site Mh.
+Şerifali
+Şerifali Mh.
+Tantavi Mh.
+Tatlısu
+Tatlısu Mh.
+Tepeüstü
+Tepeüstü Mh.
+Topağacı Mh.
+Yaman Evler Mh.
+Yeni Çamlıca Mh.
+YENİ MAHALLE
+YENİ SANAYİ
+Yenişehir Mh.
+Yukarı Dudullu
+Yukarı Dudullu Mh.
+&&KADIKÖY
+18.May
+19 Mayıs Mh.
+Acıbadem Mh.
+ALTINTEPE /MALTEPE
+BOSTANCI MAHALLESİ ÜST
+Bostancı Mh.
+Caddebostan Mh.
+Caferağa Mh.
+ÇİFTEHAVUZLAR
+Dumlupınar Mh.
+Eğitim Mh.
+Erenköy Mh.
+Fenerbahçe Mh.
+Feneryolu Mh.
+Fikirtepe Mh.
+Göztepe Mh.
+Hasanpaşa Mh.
+HAYDARPAŞA
+İBRAHİMAĞA
+İçerenköy Mh.
+İdealtepe Mh.
+İKBALİYE
+KAZASKER
+Koşuyolu Mh.
+Kozyatağı Mh.
+Küçükbakkalköy Mh.
+Merdivenköy Mh.
+Osmanağa Mh.
+Rasimpaşa Mh.
+Sahrayı Cedit Mh.
+Suadiye Mh.
+ŞAŞKINBAKKAL
+ŞENESENEVLER
+Yalı Mh.
+Zühtüpaşa Mh.
+&&ESENLER
+Birlik Mh.
+Çifte Havuzlar Mh.
+Davut Paşa Mh.
+Fatih Mh.
+Fevzi Çakmak Mh.
+Havaalanı Mh.
+Kazım Karabekir Mh.
+Kemer Mh.
+Menderes Mh.
+Mevlana Mh.
+Mimar Sinan Mh.
+Namık Kemal Mh.
+Nine Hatun Mh.
+Oruçreis Mh.
+Tekstilkent Ticaret Merkezi
+Tuna Mh.
+Turgut Reis Mh.
+Yavuz Selim Mh.
+Yıldırım Mh.
+&&PENDİK
+Ahmet Yesevi Mh.
+Bahçelievler Mh.
+Batı Mh.
+Çamçeşme Mh.
+Çamlık Mh.
+Çınardere Mh.
+Doğu Mh.
+Dumlupınar Mh.
+ERTUĞRUL GAZİ
+Esenler Mh.
+Esenyalı Mh.
+Fatih Mh.
+Fevzi Çakmak Mh.
+GÜLLÜBAĞLAR
+Güzelyalı Mh.
+Harmandere Mh.
+Kavakpınar Mh.
+Kaynarca Mh.
+Kurna Köyü
+Kurtköy Mh.
+Orhangazi Mh.
+Orta Mh.
+RAMAZANOĞLU
+Sanayi Mh.
+Sapan Bağları Mh.
+Sülüntepe Mh.
+ŞEYHLİ
+Velibaba Mh.
+Yayalar Mh.
+Yeni Mahalle Mh.
+Yenişehir Mh.
+Yeşilbağlar Mh.
+&&ŞİŞLİ
+19 Mayıs Mh.
+Ayazağa Mh.
+Bomonti
+Bozkurt Mh.
+Cumhuriyet Mh.
+Çağlayan Mh. ( Servis süresi 45 Dk. )
+Duatepe Mh.
+Ergenekon Mh.
+Esentepe Mh.
+Eskişehir Mh.
+Feriköy Mh.
+Fulya Mh.
+Gülbahar Mh.
+Gültepe
+H. Edip Adıvar Mh.
+H. Rıfat Paşa Mh.
+Hacı Ahmet Mh.
+Halaskargazi Mh.
+Harbiye Mah.
+Harbiye Mh.
+HURRIYET
+Huzur Mh.
+İnönü Mh.
+İzzetpaşa Mh.
+Kaptan Paşa Mh.
+Kuştepe Mh.
+M. Şevket Paşa Mh.
+Maslak Mevkii
+Maslak Mh.
+Mecidiyeköy Mh.
+MESRUTİYET
+Meşrutiyet Mh.
+Paşa Mh.
+Perpa Tic. Merk.
+Seyrantepe
+ŞİŞLİ Merkez Mh.
+Teşvikiye Mh.
+Yayla Mh.
+&&ATAŞEHİR
+Aşık Veysel Mh.
+Ataşehir Atatürk Mh.
+ATAŞEHİR MERKEZ
+Atatürk Mh.
+BAKKALKÖY
+Barbaros Mh.
+Bostancı Mh.
+Esatpasa Mh.
+Ferhat Paşa Mh.
+Fetih Mh.
+İçerenköy Mh.
+İnönü Mh.
+Kayışdağı Mh.
+Küçükbakkalköy
+Küçükbakkalköy Mh.
+Mevlana Mh.
+Mimar Sinan Mh.
+Mustafa Kemal Mh.
+Örnek Mh.
+Yeni Çamlıca Mh.
+Yeni Sahra Mh.
+Yenişehir Mah.
+Yenişehir Mh.
+&&BAKIRKÖY
+10. KISIM ATAKÖY
+11. KISIM ATAKÖY
+2. KISIM ATAKÖY
+3. KISIM ATAKÖY
+4. KISIM ATAKÖY
+5. KISIM ATAKÖY
+6. KISIM ATAKÖY
+7. KISIM ATAKÖY
+8. KISIM ATAKÖY
+9. KISIM ATAKÖY
+ATAKÖY / 1.KISIM
+Ataköy 1. Mh.
+Ataköy 2-5-6. Mh.
+Ataköy 3-4-11 Mh.
+Ataköy 7-8-9-10 Mh.
+Basınköy Mh.
+BEŞYOL
+Cevizlik Mh.
+FLORYA 
+GEL AL
+Kartaltepe Mh.
+KÜLTÜR ÜNİ. ATAKÖY KAMPÜSÜ
+Osmaniye Mh.
+Sakızağacı Mh.
+Şenlikköy Mh.
+THY 
+Yenimahalle Mh.
+Yeşilköy Mh.
+Yeşilyurt Mh.
+Zeytinlik Mh.
+Zuhuratbaba Mh.
+&&BAYRAMPAŞA
+Altıntepsi Mh.
+BARBOROSHAYRETTİNPAŞA
+Cevat Paşa Mh.
+Fevzi Çakmak Mh.
+HÜRRİYET
+İsmet Paşa Mh.
+KARADENİZ
+Kartaltepe Mh.
+Kocatepe Mh.
+Muratpaşa Mh.
+Ortamahalle Mh.
+Terazidere Mh.
+Vatan Mh.
+Yenidoğan Mh.
+Yıldırım Mh.
+&&BEYOĞLU
+Arap Cami Mh.
+Asmalı Mescit Mh.
+Bedrettin Mh.
+Bereketzade Mh.
+Bostan Mh.
+Bülbül Mh.
+Camiikebir Mh.
+Cihangir Mh.
+Çatma Mescit Mh.
+Çıksalın
+Çukur Mh.
+Emekyemez Mh.
+Evliya Çelebi Mh.
+Fetihtepe Mh.
+Firuzağa Mh.
+Gümüşsuyu Mh.
+Hacıahmet Mh.
+Hacımimi Mh.
+Halıcıoğlu Mh.
+Hüseyinağa Mh.
+İnönü
+İstiklal Mh.
+Kadı Mehmet Mh.
+Kalyoncu Kulluğu Mh.
+KALYONCUOĞLU
+Kamer Hatun Mh.
+Kaptanpaşa Mh.
+Katip Mustafa Çelebi Mh.
+Keçeci Piri Mh.
+Kemankeş Karamustafa Paşa Mh.
+Kılıçali Paşa Mh.
+Kocatepe Mh.
+Kulaksız Mh.
+Kuloğlu Mh.
+Küçük Piyale Mh.
+Mahmut Şevket Paşa
+Müeyyedzade Mh.
+Ömer Avni Mh.
+Örnektepe Mh.
+Piri Paşa Mh.
+Piyalepaşa Mah.
+Piyalepaşa Mh.
+Pürtelaş Hasan Efendi Mh.
+Sururi Mehmet Efendi Mh.
+Sütlüce Mh.
+Şahkulu Mh.
+Şehit Muhtar Mh.
+Tomtom Mh.
+Yahya Kahya Mh.
+Yenişehir Mh.
+&&ÜSKÜDAR
+ABDULLAHAĞA
+Acıbadem Mh.
+AHÇIBAŞI
+Ahmediye Mh.
+Altunizade Mh.
+ARAKİYECİ HACI CAFER
+ATATÜRK
+AYAZMA
+Aziz Mahmut Hüdayi Mh.
+Bahçelıevler Mh.
+Barbaros Mh.
+Beylerbeyi Mh.
+Bulgurlu Mh.
+Burhaniye Mh.
+Cumhuriyet Mh.
+Çengelköy Mh.
+EMEK
+EMNİYET
+Ferah Mh.
+GÜLFEM HATUN
+Güzeltepe Mh.
+HASİPPAŞA
+HAVUZBAŞI
+İcadiye Mh.
+İHSANİYE
+Kandilli Mh.
+KEFÇEDEDE
+Kısıklı Mh.
+Kirazlıtepe Mh.
+Kuleli Mh.
+Kuzguncuk Mh.
+Küçük Çamlıca Mh.
+KÜÇÜKSU
+Küçüksu Mh.
+Küplüce Mh.
+Mehmet Akif Ersoy Mh.
+Mimarsinan Mh.
+Murat Reis Mh.
+PAZARBAŞI
+RUMİ MEHMETPAŞA
+Salacak Mh.
+Selami Ali Mh.
+Selimiye Mh.
+Sultantepe Mh.
+TABAKLAR
+TAVAŞI HASANAĞA
+Ünalan Mh.
+Valide-İ Atik Mh.
+VANİKÖY
+Yavuztürk Mh.
+Zeynep Kamil Mh.
+&&EYÜP
+Akşemsettin Mh.
+Alibeyköy Mh.
+Çırçır Mh.
+ÇİFTALAN
+Defterdar mh
+Defterdar Mh.
+Düğmeciler Mh.
+Emniyettepe Mh.
+Esentepe Mh.
+Eyüp Merkez Mh.
+Göktürk Merkez Mh.
+Güzeltepe Mh.
+İslambey Mh.
+Karadolap
+Karadolap Mh.
+Mevlana Mh.
+Mimarsinan Mh.
+Mithatpaşa Mh.
+Nişancı Mh.
+PİRİNÇÇİ
+Rami Cuma Mh.
+Rami Yeni Mh.
+Sakarya Mh.
+Silahtarağa Mh.
+Topçular
+Topçular Mh.
+Yeşilpınar Mh.
+&&GAZİOSMANPAŞA
+Bağlarbaşı Mh.
+Barbaros Hayrettin Paşa Mh.
+Fevzi Çakmak
+Fevzi Çakmak Mh.
+Hürriyet
+Hürriyet Mh.
+Karadeniz Mh.
+Karayolları Mh.
+Karlıtepe Mh.
+Kazım Karabekir
+Kazım Karabekir Mh.
+Merkez Mh.
+Mevlana Mh.
+Pazariçi Mh.
+Sarıgöl Mh.
+Şemsi Paşa Mh.
+Yeni
+Yeni Mh.
+Yenidoğan Mh.
+Yıldırım Mh.
+Yıldıztabya
+Yıldıztabya Mah.
+Yıldıztabya Mh.
+&&MALTEPE
+Altayçeşme Mh.
+Altıntepe Mh.
+Aydınevler Mah.
+Aydınevler Mh.
+BAGLARBASI MAH
+Bağlarbaşı Mh.
+Başıbüyük
+Başıbüyük Mh.
+Büyükbakkalköy Mh.
+Cevizli Mh.
+Çınar Mah.
+Çınar Mh.
+EMEK
+Esenkent Mh.
+Feyzullah
+Feyzullah Mh.
+Fındıklı Mh.
+Girne Mh.
+Gülensu Mh.
+Gülsuyu Mh.
+İdealtepe Mah
+İdealtepe Mh.
+Küçükyalı Mh.
+MERKEZ
+Yalı Mh.
+YENI MAH
+Zümrütevler Mh.
+&&SARIYER
+Baltalimanı Mh.
+Boğaziçi A  Blokları
+Boğaziçi B  Blokları
+Boğaziçi C Blokları
+Boğaziçi D Blokları
+Büyükdere Mh.
+Cumhuriyet Mh.
+Çamlıtepe Mh.
+Çayırbaşı Mh.
+Darüşşafaka Mh.
+Demirci Köyü
+Emirgan Mh.
+Fatih Sultan Mehmet Mh.
+Ferahevler Mh.
+Garipçe Köyü
+İstinye Mh.
+Kazım Karabekir Paşa Mh.
+Kefeliköy (30 Dakika garantisi yoktur)
+Kilyos
+Kireçburnu Mh.
+Kocataş Mh.
+Kumköy Köyü
+Maden Mh.
+Maslak
+Merkez Mh.
+Mesa Maslak Evleri
+ÖMÜRTEPE
+Pınar Mh.
+Poligon Mh.
+Ptt Evleri Mh.
+Reşitpaşa Mh.
+Rumeli Hisarı Mh.
+Rumeli Kavağı Mh.
+Tarabya Mh.
+Uskumruköy Köyü
+Yeni Mh.
+Yeniköy Mh.
+Zekeriyaköy Köyü
+&&SULTANGAZİ
+50. Yıl Mh.
+75. Yıl Mh.
+CEBECİ
+Cumhuriyet Mh.
+Esentepe Mh.
+GAZİ
+Gazi Mh.
+İSMETPAŞA
+Karadeniz Mh.
+Karayolları Mh.
+MALKOÇOĞLU
+Sultançiftliği Mh.
+Uğur Mumcu Mh.
+Yunus Emre Mh.
+Zübeyde Hanım Mh.
+&&ZEYTİNBURNU
+Beştelsiz Mh.
+Çırpıcı Mh.
+Gökalp Mh.
+Kazlıçeşme Mh.
+Maltepe Mh.
+Merkezefendi Mh.
+Nuripaşa Mh.
+Seyitnizam Mh.
+Sümer Mh.
+Telsiz Mh.
+Veli Efendi Mh.
+Yenidoğan Mh.
+Yeşiltepe Mh.
+&&KARTAL
+Atalar Mh.
+Cevizli Mh.
+Cumhuriyet Mh.
+Çarşı Mh.
+Çavuşoğlu Mh.
+Esentepe Mh.
+Gümüşpınar Mh.
+Hürriyet Mh.
+Karlıktepe Mh.
+Kordonboyu Mh.
+Orhantepe Mh.
+Orta Mh.
+Petroliş Mh.
+Soğanlık Yeni Mh.
+Topselvi Mh.
+Uğurmumcu Mh.
+Yakacık Yeni Mh.
+Yalı Mh.
+Yeşilbağlar Mh.
+Yukarı Mh.
+Yunus Mh.
+&&BAHÇEŞEHİR
+2 KISIM
+Boğazköy
+ISPARTA KULE 
+Tahtakale Mh.
+&&FATİH
+ABDİ CELEBİ
+Aksaray Mh.
+Akşemsettin Mah.
+Akşemsettin Mh.
+Alemdar Mh.
+Ali Kuşcu Mh.
+ARABACI BEYAZIT
+ARPA EMİNİ
+Atikali Mah..
+Atikali Mh.
+Ayvansaray Mah..
+Ayvansaray Mh.
+Balabanağa Mh.
+Balat Mah.
+Balat Mh.
+Beyazıt Mh.
+Binbirdirek Mh.
+CANBAZIYE
+Cankurtaran Mh.
+Cerrah Paşa Mh.
+CERRAHPASA
+Cibali Mh.
+DAVUT PASA
+Demirtaş Mh.
+DENİZ ABDAL
+Derviş Ali Mah.
+Derviş Ali Mh.
+Emin Sinan Mh.
+EREĞLİ 
+HACI EVHADDİN
+HACI EVHATTİN
+HACI HAMZA
+HACI HÜSEYİNAĞA
+Hacı Kadın Mh.
+Haseki Sultan Mh.
+Hırkai Şerif Mah.
+Hırka-i Şerif Mh.
+Hobyar Mh.
+Hoca Gıyasettin Mh.
+Hoca Paşa Mh.
+İBRAHİM ÇAVUŞ
+İMRAHOR
+İskender Paşa Mh.
+Kalenderhane
+Kalenderhane Mh.
+Karagümrük Mah.
+Karagümrük Mh.
+Katip Kasım
+Katip Kasım Mh.
+Kemal Paşa Mh.
+Kemalpaşa Mah 
+Koca Mustafa Paşa Mah.
+Koca Mustafa Paşa Mh.
+Küçük Ayasofya
+Küçük Ayasofya Mh.
+MELEK HATUN
+Mercan Mh.
+Mesih Paşa Mh.
+Mevlanakapı Mah.
+Mevlanakapı Mh.
+Mimar Hayrettin Mh.
+Mimar Kemalettin Mh.
+Molla Gürani Mh.
+MOLLA ŞEREF
+Mollafenari Mh.
+Mollahüsrev Mh.
+Muhsine Hatun Mh.
+NEVBAHAR
+Nişanca Mh.
+ÖRDEK KASAP
+Rüstem Paşa Mh.
+SANCAKTAR HAYRETTİN
+Saraç İshak Mh.
+Sarıdemir Mh.
+Seyyid Ömer Mh.
+Silivri Kapı Mh.
+SİLİVRİKAPI
+Sultan Ahmet Mh.
+Sururi Mh.
+Süleymaniye Mh.
+SÜMBÜL EFENDİ
+Sümbül Efendi Mh.
+Şehremini Mh.
+Şehsuvar Bey Mh.
+Tahtakale Mh.
+Taya Hatun Mh.
+Topkapı Mh.
+VELEDI KARABAS
+VELEDİ KARABAŞ
+Yavuz Sinan Mh.
+Yavuz Sultan Selim
+Yavuz Sultan Selim Mh.
+YEDİKULE
+Yedikule Mh.
+Zeyrek Mh.
+&&BEYKOZ
+Acarlar Mh.
+Anadolu Hisarı Mh.
+ANADOLU KAVAĞI
+Baklacı
+Baklacı Mh.
+BEYKOZ KONAKLARI
+Çamlıbahçe Mh.
+ÇENGELDERE
+ÇİFTLİK
+ÇİĞDEM
+Çubuklu Mh.
+Elmalı Köyü
+FATİH
+GÖKSU EVLERİ
+Göksu Mh.
+Görele Köyü
+Göztepe Mh.
+Gümüşsuyu Mh.
+İncirköy Mh.
+KANDİLLİ
+Kanlıca Mh.
+Kavacık Mh.
+KÜÇÜKSU
+Merkez Mh.
+Ortaçeşme Mh.
+Paşabahçe Mh.
+Rüzgarlı Bahçe Mh.
+Soğuksu Mh.
+ŞENEVLER
+Tokatköy Mh.
+Yalıköy Mh.
+Yeni Mahalle Mh.
+&&ESENYURT
+Akçaburgaz Mh.
+ALKENT 
+Ardıçlı Mh.
+Atatürk
+Atatürk Mh.
+Cumhuriyet Mh.
+ÇAKMAKLI
+Esenkent Mh.
+Fatih Mh.
+Güzelyurt Mh.
+İncirtepe Mh.
+İnönü Mh.
+İstiklal Mh.
+KARAAĞAÇ
+MEHTERÇEŞME
+Merkez Mh.
+Namık Kemal Mh.
+Örnek Mh.
+Pınar Mh.
+Saadetdere Mh.
+Sanayi Mh.
+TALATPAŞA
+Yenikent Mh.
+Yeşilkent Mh.
+&&GÜNGÖREN
+Abdurrahman Nafiz Gürman Mh.
+Akıncılar Mh.
+Cumhuriyet Mh.
+Çifte Havuzlar Mh.
+DAVUTPAŞA
+Gençosman Mh.
+Güneştepe Mh.
+Güven Mh.
+Haznedar Mh.
+Mareşal Çakmak Mh.
+Mehmet Nesih Özmen Mh.
+Merkez Mh.
+Sanayi Mh.
+Tozkoparan Mh.
+YENİGÜN
+YILDIZTEPE
+&&ÇAVUŞBAŞI
+ÇENGELDERE
+&&AVCILAR
+AMBARLI GUMRUK
+Ambarlı Mh.
+Cihangir Mh.
+Denizköşkler Mh.
+Firuzköy Mh.
+Gümüşpala Mh.
+HARAMİDERE
+Merkez
+Merkez Mh.
+Mustafa Kemal Paşa Mh.
+Tahtakale Mh.
+Üniversite Mh.
+Yeşilkent Mh.
+&&BAHÇELİEVLER
+Bahçelievler Mh.
+Cumhuriyet Mah.
+Cumhuriyet Mh.
+Çobançeşme Mh.
+Fevziçakmak Mh.
+Hürriyet Mh.
+Kocasinan Merkez Mh.
+Siyavuşpaşa Mh.
+Soğanlı Mah.
+Soğanlı Mh.
+Şirinevler Mh.
+Yenibosna Merkez Mh.
+Zafer Mh.
+&&BAĞCILAR
+100. Yıl Mh.
+Bağlar Mh.
+Barbaros Mh.
+COBAN CESME
+Cumhuriyet Mh.
+Çınar Mh.
+Demirkapı Mh.
+Evren Mh.
+Fatih Mh.
+Fevziçakmak Mh.
+Göztepe Mh.
+Güneşli Mh.
+Hürriyet Mh.
+İnönü Mh.
+Kazımkarabekir Mh.
+Kemalpaşa Mh.
+Kirazlı Mh.
+KOCASİNAN 
+Mahmutbey Mh.
+Merkez Mh.
+Mevlana Mh.
+Sancaktepe Mh.
+Yavuz Selim Mh.
+YENI BOSNA
+Yenigün Mh.
+Yenimahalle Mh.
+Yıldıztepe Mh.
+Yüzyıl
+&&BAŞAKŞEHİR
+Bahçeşehir 1. Kısım Mh.
+Bahçeşehir 2. Kısım Mh.
+Başak Mh.
+Başakşehir Mh.
+BOĞAZKÖY
+DEPREM KONUTLARI
+Fenertepe ( 30 Dakika garantisi bulunmamaktadır. )
+GÖÇMEN KONUTLARI
+Güvercintepe Mh. ( 30 Dakika garanti yoktur. )
+İKİTELLİ ORG SAN BÖLGESİ
+İKİTELLİ ORG. SAN. BÖLGESİ
+İstoç Adalar
+Kayabaşı Mh.
+Kiptaş Kayabaşı ( 30 Dakika garantisi bulunmamaktadır. )
+ONURKENT
+OYAKKENT
+Şahintepe Mh.
+Şamlar Köyü
+VATANKENT 
+Ziyagökalp Mh.
+&&KÜÇÜKÇEKMECE
+ Mehmet Akif Mh.
+Atakent Mh.
+Atatürk Mh.
+Beşyol Mh.
+Cennet
+Cennet Mh.
+CEViZLiK MEVKi
+Cumhuriyet
+Cumhuriyet Mh.
+ÇAMLIK ALTI MEVKİİ
+ESKİ BAĞLAR MEVKİ
+Fatih
+Fatih Mh.
+Fevzi Çakmak Mh.
+Gültepe Mh.
+Halkalı Merkez Mh.
+İnönü Mh.
+İstasyon mah.
+Kanarya
+Kanarya Mh.
+Kartaltepe Mh.
+Kemalpaşa Mh.
+NAYMAN MEVKİ
+ORGANİZE SANAYİ
+Söğütlü Çeşme Mh.
+Sultan Murat Mh.
+Şenlikköy Mh.
+TAŞOCAĞI MEVKİ
+Tevfik Bey Mh.
+Yarımburgaz Mh.
+Yeni Mahalle
+Yeni Mahalle Mh. 
+Yeşilova Mh.
+ZİYA GÖKALP
+&&TUZLA
+ANADOLU
+Aydınlı - Boya Vernik OSB
+Aydınlı - TMOSB
+Aydınlı Mh.
+Aydınlı-KOSB
+Aydıntepe Mh.
+CAMİ
+Deri OSB
+Esenyalı Mh.
+EVLİYA ÇELEBİ
+Fatih Mh.
+FIRAT
+Güzelyalı Mh.
+İÇMELER
+İSTASYON
+MERKEZ
+Orhanlı Mh.
+ORTA
+POSTANE
+ŞİFA
+Tepeören Mh.
+Tepeören OSB
+YAYLA
+&&ÇEKMEKÖY
+Aydınlar Mh.
+Cumhuriyet Mh.
+ÇAMLIK
+Çamlık Mh.
+Ekşioğlu Mh.
+ESENŞEHİR
+Güngören Mh.
+HAMİDİYE
+Hamidiye Mh.
+MEHMET AKİF
+Mehmet Akif Ersoy Mh.
+Merkez Mh.
+MİMAR SİNAN
+Mimar Sinan Mh.
+Soğukpınar Mh.
+Taşdelen Mh.
+&&SANCAKTEPE
+AKPINAR
+EYÜPSULTAN
+FATİH
+OSMANGAZİ
+&&SAMANDIRA
+AKPINAR
+EYÜPSULTAN
+FATİH
+OSMANGAZİ
+&&SİLİVRİ
+Alibey Mh.
+Alipaşa Mh.
+Cumhuriyet Mh.
+Fatih Silivri Mh.
+Kavaklı Cumhuriyet Mh.
+Mimarsinan Silivri Mh.
+Piri Mehmet Paşa Mh.
+Selimpaşa Merkez Mh.
+Semizkumlar Mh.
+Yeni Mh.
+&&BÜYÜKÇEKMECE
+19 Mayıs Mh.
+Atatürk Mh.
+Batıköy Mah.
+CELALİYE
+Cumhuriyet Mh.
+Çakmaklı Mh.
+Dizdariye Mh.
+Fatih Mh.
+GÜZELCE
+KAMİLOBA
+KUMBURGAZ BAHÇELİEVLER
+Kumburgaz mah.
+KUMBURGAZ MERKEZ
+KUMBURGAZ YENİ 
+M.SİNAN MERKEZ
+MİMAROBA BATIKÖY
+Mimarsinan Merkez Mah.
+Muratçeşme Mah.
+Pınartepe Mh.
+TEPECİK HÜRRİYET
+Tepecik Mah.
+TEPECİK MURAT ÇEŞME
+TEPECİK ULUS
+TEPEKENT TÜRKOBA
+&&BEYLİKDÜZÜ
+Adnan Kahveci Mh.
+Barış Mh.
+Beylikdüzü OSB
+Beysan Sanayi Sit.
+Bizimkent Sit.
+Büyükşehir Mh.
+Cumhuriyet Mh.
+Dereağzı Mh.
+Gürpınar Mh.
+Kavaklı Mh.
+MARMARA
+Tüyap Fuarı
+Yakuplu Mh.
+&&BEYKENT
+ADNAN KAHVECI
+Tüyap Fuarı
+&&GÜRPINAR
+DEREAĞZI
+GÜRPINAR
+MERKEZ
+PINARTEPE
+&&TAŞDELEN 
+ÇAMLIK MAH 
+EKŞİOĞLU
+Sultançiftliği Mh.
+&&YENİDOĞAN
+YUNUS EMRE
+&&SANCAKTEPE
+Abdurrahmangazi Mh.
+ADİL
+Akşemsettin Mh.
+BATTALGAZİ
+EMEK
+Emek Mh.
+Fatih Mh.
+Hamidiye Mh.
+Hasanpaşa Mh.
+İNÖNÜ
+KEMAL TÜRKLER
+Mecidiye Mh.
+Meclis
+Mehmet Akif Mh.
+MERKEZ
+MİMAR SİNAN
+Necip Fazıl Mh.
+Orhangazi Mh.
+Turgut Reis Mh.
+Veysel Karani Mh.
+Yavuz Selim Mh.
+&&ADALAR
+Maden
+Nizam
+&&SULTANBEYLİ
+Abdurrahmangazi Mh.
+Adil Mh.
+Ahmed Yesevi Mh.
+Battalgazi Mh.
+Eyüpsultan Mh.
+Fatih Mh.
+Fatih Mh. (Ortadağ)
+Hasanpaşa Mh.
+Mehmet Akif Mh.
+Mimar Sinan Mh.
+Osmangazi Mh.
+Veysel Karani Mh.
+&&ARNAVUTKOY
+Hacımaşlı Köyü
+&&Arnavutköy
+Adnan Menderes
+Anadolu
+Arnavutköy Merkez
+Atatürk
+Boğazköy İstiklal
+Boğazköy Merkez
+Bolluca
+Haraççı
+Hicret
+İmrahor
+İslambey
+Karlıbayır
+M. Fevzi Çakmak
+Mavigöl
+Mehmet Akif Ersoy
+Mustafa Kemal Paşa
+Nenehatun
+Taşoluk
+Yavuz Selim
+//İZMİR
+&&KARŞIYAKA
+Aksoy Mh.
+Alaybey Mh.
+Atakent Mh.
+Bahariye Mh.
+Bahçelievler Mh.
+Bahriye Üçok Mh.
+Bostanlı Mh.
+CARSI
+Cumhuriyet Mh.
+Dedebaşı Mh.
+Demirköprü Mh.
+Donanmacı Mh.
+Fikri Altay Mh.
+GIRNE LUNAPARK
+GIRNE LUNAPARK USTU
+Goncalar Mh.
+İmbatlı Mh.
+İnönü Mh.
+İstasyonaltı Mh.
+KARSIYAKA SAHIL
+MAVİŞEHİR
+Nergiz Mh.
+Örnekköy Mh.
+Şemikler Mh.
+Tersane Mh.
+Tuna Mh.
+Yalı Mh.
+Yamaç
+YAMAÇ EVLER
+YENIGIRNE
+Zübeyde Hanım
+&&BALÇOVA
+Bahçelerarası Mah.
+Bahçelerarası Mh.
+Çetin Emeç Mah.
+Çetin Emeç Mh.
+Eğitim Mah.
+Eğitim Mh.
+Fevzi Çakmak Mah.
+Fevzi Çakmak Mh.
+İnciraltı Mah.
+İnciraltı Mh.
+Korutürk Mah.
+Korutürk Mh.
+Onur Mah.
+Onur Mh.
+Teleferik Mah.
+Teleferik Mh.
+ÜÇKUYULAR
+&&GAZİEMİR  
+Atıfbey Mh.
+Dokuz Eylül Mh.
+Gazi Mh.
+Gazikent Mh.
+Irmak Mh.
+Sevgi Mh.
+Yeşil Mh.
+&&KARABAĞLAR
+Adnan Süvari Mh.
+Arap Hasan Mh.
+Aşık Veysel Mh.
+Aydın Mh.
+Bahar Mh.
+Bahçelievler Mh.
+Barış Mh.
+BASIN SİTESİ
+Bozyaka Mh.
+Çalıkuşu Mh.
+Doğanay Mh.
+DOLUNAY
+Esenlik Mh.
+Esentepe Mh.
+Esenyalı Mh.
+Fahrettin Altay Mh.
+General Kazım Özalp Mh.
+GÖNGÜR
+GÖZTEPE MAH
+Gülyaka Mh.
+İhsan Alyanak Mh.
+Karabağlar Mh.
+Kazım Karabekir Mh.
+Maliyeciler Mh.
+MEHMET ALİ AKMAN
+Metin Oktay Mh.
+Muammer Akar Mh.
+Peker Mh.
+Poligon Mh.
+Refet Bele Mh.
+REİS
+Sarıyer Mh.
+Selvili Mh.
+Şehitler Mh.
+Tahsin Yazıcı Mh.
+Uğur Mumcu Mh.
+Üçkuyular Mh.
+Vatan Mh.
+YEŞİLYURT
+Yunus Emre Mh.
+&&KONAK
+Akdeniz Mh.
+Akın Simav Mh.
+Akıncı Mh.
+AKINCILAR
+Alsancak Mh.
+Altıntaş Mh.
+Arap Hasan Mh.
+Atilla Mh.
+Barbaros Mh.
+Bozkurt Mh.
+Çahabey Mh.
+ÇAKABEY
+Çankaya Mh. - Hatay
+Çankaya Mh. - Pasaport
+Çınarlı Mh.
+Ege Mh.
+EĞİTİM
+Emir Sultan Mh.
+ESENDERE
+ESENTEPE
+Etiler Mh.
+Fatih Mh.
+Göztepe Mh.
+Güneş Mh.
+Güneşli Mh.
+Güney Mh.
+Güngör Mh.
+Güzelyalı Mh.
+Güzelyurt Mh.
+Halkapınar Mh.
+Hilal Mh.
+Hurşidiye Mh.
+İsmet Kaptan Mh.
+Kahramanlar Mh.
+Kemal Reis Mh.
+Kestelli Mh.
+Kılıç Reis Mh.
+Konak Mh.
+Kültür Mh.
+Mecidiye Mh.
+Mehmet Ali Akman Mh.
+Mersinli
+Mersinli Mh.
+Mimar Sinan Mh.
+Mithatpaşa Mh.
+MUARREM AKAR
+Murat Reis Mh.
+Namık Kemal Mh.
+Odunkapı Mh.
+Oğuzlar Mh.
+OYAK SİTESİ
+Piri Reis Mh.
+Sümer Mh.
+Şehit Nedim Tuğaltay Mh.
+Tan Mh.
+Turgut Reis Mh.
+Uğur Mh.
+Umurbey Mh.
+ÜÇKUYULAR
+YENIGUN
+Yenigün Mh.
+Yenişehir Mh.
+Yeşiltepe Mh.
+Yıldız Mh.
+&&NARLIDERE  
+2. İnönü Mh.
+Altıevler Mh.
+Atatürk Mh.
+Çamtepe Mh.
+Çatalkaya Mh.
+Huzur Mh.
+Ilıca Mh.
+Narlı Mh.
+Sahilevleri Mh.
+Yenikale Mh.
+&&BUCA
+Adatepe Mh.
+Akıncılar Mah.
+Akıncılar Mh.
+Aşık Veysel Mh.
+Atatürk Mh.
+Barış Mh.
+Buca Koop. Mh.
+Buca OSB
+Çaldıran Mh.
+Çamlık ( Servis süresi 45 Dk. )
+Çamlıkule
+Çamlıpınar
+Dicle Mh.
+Dumlupınar Mah.
+Dumlupınar Mh.
+Efeler Mh.
+Fırat ( Servis süresi 45 Dk. )
+Fırat Mh.
+Gaziler ( Servis süresi 45 Dk. )
+Göksu ( Servis süresi 45 Dk. )
+Göksu Mh.
+Güven Mh.
+Hürriyet Mh.
+İnkılap Mh.
+İnönü mah. ( Servis süresi 45 Dk. )
+Kozağaç Mh.
+Kuruçeşme Mh.
+Laleli Mh.
+Menderes Mh.
+Mustafa Kemal ( Servis süresi 45 Dk. )
+Osman Aksüner Mh.
+Seyhan ( Servis süresi 45. )
+Seyhan Mh.
+Şirinkapı ( Servis süresi 45 Dk. )
+Ufuk ( Servis süresi 45 Dk. )
+Vali Rahmi Bey Mh.
+Yaylacık Mh.
+Yenigün
+Yeşilbağlar ( Servis süresi 45 Dk.)
+Yeşilbağlar Mh.
+Yıldız Mh.
+Yiğitler Mh.
+&&BORNOVA
+Atatürk Mh.
+Atatürk Mh. ( Servis süresi 45 Dk. )
+Barbaros Mh.
+Birlik Mh.
+Çınar Mh.
+Çınarlı Mh. ( Servis süresi 45 Dk. )
+Çiçek Mh. ( Servis süresi 45 Dk. )
+Doğanlar Mh. ( Servis süresi 50 Dk. )
+Eğridere Köyü
+Ergene Mh.
+Erzene Mh.
+Evka 3 Mh. ( Saraykent bölgesine servis süremiz 45 Dakikadır )
+Evka 4 Mh.
+Gazi Osman Paşa Mh.
+İnönü Mh.
+İnönü Mh. ( Servis süresi 45 Dk. )
+Karacaoğlan Mh.
+Karacaoğlan Mh.( Servis süresi 45 Dk )
+Kazımdirik
+Kazımdirik Mh.
+Kızılay
+Kızılay Mh.
+Koşukavak Mh.
+Manavkuyu Mh.
+Mansuroğlu Mh. 
+Meriç Mh.
+Mevlana Mh.
+Osmangazi Mh.
+Pınarbaşı Mh. (Servis süresi 45 Dk. )
+Rafet Paşa Mh.
+Serintepe Mh.
+Tuna Mh.
+Ümit Mh. ( Servis süresi 45 Dk )
+Yeşilova Mh.
+Yıldırım Beyazıt Mh.
+&&ÇİĞLİ
+Ahmet Taner Kışlalı Mh.
+AOSB
+Aydınlıkevler Mh.
+Balatçık Mh.
+Çağdaş Mh.
+Egekent Mh.
+Esentepe Mh.
+Evka 2
+Güzeltepe Mh.
+İstasyonaltı Mh.
+İzkent Mh.
+Köyiçi Mh.
+Küçük Çiğli Mh.
+Maltepe Mh.
+Şirintepe Mh.
+Yakakent Mh.
+Yeni Mahalle Mh.
+&&BAYRAKLI
+Adalet Mh.
+Atatürk Mh.
+Bayraklı Mh.
+Çay Mh.
+Çiçek Mh.
+Emek Mh.
+Kazımdirik Mh.
+Manavkuyu Mh.
+Mansuroğlu Mh.
+Osmangazi
+Osmangazi Mh.
+Postacılar Mh.
+Soğukkuyu Mh.
+Tepekule Mh.
+&&Çeşme
+16 Eylül Mh.
+Altınyunus Mh.
+Boyalık Mh.
+Çakabey Mh.
+Fahrettinpaşa Mh.
+Ilıca Mh.
+İsmet İnönü Mh.
+Musalla Mh.
+Sakarya Mh.
+//KASTAMONU
+&&Merkez
+Akmescit
+Aktekke
+Atabeygazi
+Beyçelebi
+Candaroğulları
+Cebrail
+Çerçiköy Köyü
+Esentepe
+Hacıbey Köyü
+Hepkebirler
+Hisarardı
+Honsalar
+İnönü
+İsfendiyar
+İsmailbey
+Kırkçeşme
+Kıyık Köyü
+Mehmet Akif Ersoy
+Örencik Köyü
+Saraçlar
+Topçuoğlu
+Yavuz Selim
+Yukarıkuyucak Köyü
+//KAYSERİ
+&&KOCASİNAN
+Erciyesevler Mh.
+Fatih Mh.
+Fevzi Çakmak Mh.
+Gevhernesibe Mh.
+Hacı Saki Mh.
+Mevlana Mh.
+Mimarsinan Mh.
+Örnekevler Mh.
+Sahabiye Mh.
+Serçeönü Mh.
+Uğurevler Mh.
+&&MELİKGAZİ
+Alpaslan Mh.
+Battalgazi Mh.
+Beyazşehir Mh.
+Camikebir Mh.
+Cumhuriyet Mh.
+Erenköy Mh.
+Gökkent ( 30 Dakika garantisi bulunmamaktadır. )
+Gülük Mh.
+Hunat Mh.
+İldem Gesi Cumhuriyet Mh.
+İldem Gesi Fatih Mh.
+Kılıçaslan Mh.
+Kiçikapı Mh.
+Kocasinan Mh. ( 30 Dakika garanti bulunmamaktadır. )
+Köşk Mh.
+Melikgazi Mh.
+Mimarsinan Bahçelievler Mh.
+Mimarsinan Demokrosi Mh.
+Mimarsinan Fatih Mh. ( 30 Dakika garanti bulunmamaktadır. )
+Mimarsinan Şirintepe Mh. ( 30 Dakika garanti bulunmamaktadır. )
+Seyitgazi Mh.
+Şehit Nazımbey Mh.
+Tacettin Veli Mh.
+Yavuz Selim Mh. ( 30 Dakika garanti bulunmamaktadır. )
+Yıldırım Beyazıt Mh.
+&&TALAS
+BAHÇELİEVLER
+Bahçelievler Mh.
+Erenköy Mh. (30 Dakika garantisi yoktur)
+Kiçiköy Mh.
+Mevlana Mh.
+Tablakaya Mh.
+Yeni Mh.
+YENİDOĞAN
+Yukarı Mh. (30 Dakika garantisi yoktur)
+//KIRKLARELİ
+&&LÜLEBURGAZ
+8.Kas
+Atatürk Mh.
+GENÇLİK
+Gündoğu Mh.
+Güneş Mh.
+Hürriyet Mh.
+İnönü Mh.
+İstiklal Mh.
+Kocasinan Mh.
+Kurtuluş Mh.
+Özerler Mh.
+SEVGİ
+Siteler Mh.
+Yeni Mh.
+Yıldız Mh.
+YILMAZ
+Zafer Mh.
+&&MERKEZ
+AKALAR
+Bademlik Mh.
+Cumhuriyet Mh.
+Demirtaş Mh.
+Doğu Mh.
+İstasyon Mh.
+Karacaibrahim Mh.
+KARAHIDIR
+Karakaş Mh.
+Kocahıdır Mh.
+Pınar Mh.
+Yayla Mh.
+//KOCAELİ
+&&GEBZE
+Adem Yavuz Mh.
+Arapçeşme Mh.
+ATATÜRK
+Balçık Köyü
+Barış Mh.
+Beylikbağı Mh.
+CAYIR OVA
+Cumhuriyet Mh.
+Gaziler Mh.
+Gebze OSB
+Gebze OSB 3
+Güzeller Mh.
+Hacıhalil Mh.
+Hürriyet Mh.
+İnönü Gebze Plastikçiler OSB
+İnönü Mh.
+İstasyon Mh.
+Köşklü Çeşme Mh .
+Köşklü Çeşme Mh.
+Mevlana Mh.
+Mimar Sinan Mh.
+Mustafapaşa Mh.
+Osman Yılmaz Mh.
+Sultan Orhan Mh.
+ŞEKERPİNAR
+Tatlıkuyu Mh.
+Ulus Mh.
+Yavuz Selim Mh.
+YENİ
+Yenikent Mh .
+Yenikent Mh.
+&&İZMİT
+28 Haziran Mh.
+Akarca Mh.
+Akçakoca Mh.
+Alikahya Cumhuriyet Mh.
+Alikahya Fatih Mh.
+Alikahya Merkez Mh.
+Cedit Mh.
+Çayırköy Köyü
+Çukurbağ Mh.
+Erenler Mh.
+Fevzi Çakmak Mh.
+Hacıhasan Mh.
+Hacıhızır Mh.
+Kadıköy Mh.
+Karabaş Mh.
+Karadenizliler Mh.
+Kemalpaşa Mh.
+Kozluk Mh.
+Körfez Mh.
+Orhan Mh.
+Ömerağa Mh.
+Tepecik Mh.
+Terzi Bayırı Mh.
+Topçular Mh.
+Turgut Mh.
+Veliahmet Mh.
+Yahyakaptan Mh.
+&&MERKEZ
+28 Haziran Mh.
+Akarca Mh.
+Akçakoca Mh.
+Alikahya Cumhuriyet Mh.
+Alikahya Fatih Mh.
+Alikahya Merkez Mh.
+Cedit Mh.
+Çayırköy Köyü
+Çukurbağ Mh.
+Erenler Mh.
+Fevzi Çakmak Mh.
+Hacıhasan Mh.
+Hacıhızır Mh.
+Kadıköy Mh.
+Karabaş Mh.
+Karadenizliler Mh.
+Kemalpaşa Mh.
+Kozluk Mh.
+Körfez Mh.
+Orhan Mh.
+Ömerağa Mh.
+Tepecik Mh.
+Terzi Bayırı Mh.
+Topçular Mh.
+Turgut Mh.
+Veliahmet Mh.
+Yahyakaptan Mh.
+&&DARICA
+Abdi İpekçi Mh.
+Bağlarbaşı Mh.
+Cami Mh.
+Fevzi Çakmak Mh.
+Kazım Karabekir Mh.
+Nene Hatun Mh.
+Yalı Mh.
+Yeni Mh.
+Zincirlikuyu
+&&GÖLCÜK
+Atatürk Mh.
+Cumhuriyet Mh.
+Çiftlik Mh.( 30 Dakika garantisi bulunmamaktadır. )
+Değirmendere Merkez Mh.
+Değirmendere Yalı Mh.
+Deniz Evler Mh.
+Donanma Mh.
+Dumlupınar Mh.( 30 Dakika garantisi bulunmamaktadır. )
+İpek Yolu Mh.( 30 Dakika garantisi bulunmamaktadır. )
+Kavaklı Mh.
+Merkez Mh.
+Piyalepaşa Mh.
+Şehitler Mh.
+Şirinköy Mh. ( 30 Dakika garantisi bulunmamaktadır. )
+Topçular Mh.
+Yeni Mh.
+Yüzbaşılar Mh.
+&&ÇAYIROVA
+Akse Mh .
+Akse Mh.
+Atatürk Mh .
+Atatürk Mh.
+Cumhuriyet Mh.
+Çayırova Mh.
+Emek Mh.
+İnönü Mh.
+Özgürlük Mh .
+Özgürlük Mh.
+Şekerpınar Mh.
+Tosb-Taysad Organize Sanayi Bölgesi
+Yeni Mh.
+&&DERİNCE
+Çenedağ
+Çınarlı
+Deniz
+Dumlupınar
+Fatih Sultan
+İbnisina
+Sırrıpaşa
+Yavuz Sultan
+Yenikent
+&&KÖRFEZ
+Esentepe
+Fatih
+Kuzey
+Yavuz Sultan Selim
+//KONYA
+&&KARATAY
+Akifpaşa Mh.
+Büyük Sinan Mh.
+Kalenderhane Mh.
+Karaciğan Mh.
+KÜRKCÜ
+Şemsitebrizi Mh.
+&&MERAM
+Abdülaziz Mh.
+AKBAŞ
+AKSİNNE
+Alavardı Mh.
+Armağan Mh.
+Aşkan Mh.
+AYAN BEY
+AYDOĞDU KURTULUŞ
+BEYAZIT
+BEYHEKİM
+ÇANDIR
+Dedekorkut Mh.
+FURKAN DEDE
+Hacışaban Mh.
+Havzan Mh.
+HOCAFAKİH
+KÜÇÜKKOVANAĞZI
+KÜRDEN
+Mamuriye Mh.
+Melikşah Mh.
+MURADİYE
+Necip Fazıl Mh.
+Orgeneral Tural Mh.
+OSMAN GAZİ
+Öğretmenevleri Mh.
+Pirebi Mh.
+SAADET
+Sahibiata Mh.
+SELAM
+Selver Mh.
+Süleyman Şah Mh.
+ŞEKER MURAT
+Şeyh Sadrettin Mh.
+Şükran Mh.
+TIRILIRMAK
+Toprak Sarnıç Mh.
+Yaka Mh.
+Yunus Emre Mh.
+&&SELÇUKLU
+AKEBE
+Akıncılar Mh.
+Ardıçlı Mh.
+Aşağıpınarbaşı Mh.
+Babalık Mh.
+BAHÇELİ EVLER
+Bedir Mh.
+Beyazıt Mh.
+Beyhekim Mh.
+BİNKONUT
+Binkonutlar Rauf Orbay Mh.
+Bosna Hersek Mh.
+BUHARA
+Büyük İhsaniye Mh.
+Büyükkayacık Mh.
+Cumhuriyet Mh.
+Devri Cedid Mh.
+Dokuz Mh.
+DUMLUPINAR
+Fatih Mh.
+Ferhuniye Mh.
+Feritpaşa Mh.
+Gazali Mh.
+Hamidiye Mh.
+Hocacihan Saray Mh.
+Horozluhan Mh.
+Işıklar Mh.
+İHSANİYE
+Kaşgarlı Mahmut Mh.
+Kılınçarslan Mh.
+KOCATEPE
+Küçük İhsaniye Mh.
+Malazgirt Mh.
+Medrese Mh.
+MEHMET VEHBİ
+Musalla Bağları Mh.
+Nişantaş Mh.
+Özalan Mh.
+Peyami Safa Mh.
+Sancak Mah.
+Sancak Mh.
+Süleyman Çelebi Mh.
+Şekermurat Mh.
+Şeyh Şamil Mh.
+Tarla Mh.
+Yazır Mah.
+Yazır Mh.
+Yeni Şehir Mh.
+YENİSELÇUK
+//KÜTAHYA
+&&MERKEZ
+30 Ağustos Mh.
+75. Yıl Mh.
+Alipaşa Mh.
+Cumhuriyet Mh.
+Fatih Mh.
+Saray Mh.
+Vefa Mh.
+Yenidoğan Mh.
+Yıldırım Beyazıt Mh.
+Yunusemre Mh.
+//MALATYA
+&&MERKEZ
+Abdulgaffar Mh.
+Aşağı Bağlar Mh.
+Ataköy Mh.
+B. Hüseyinbey Mh.
+B. Mustafa Paşa Mh.
+Başharık Mh.
+BEYDAĞI
+Cemalgürsel Mh.
+CEVATPAŞA
+Cevherizade Mh.
+Çilesiz Mh.
+ÇÖŞNÜK
+Çukurdere Mh.
+Ferhadiye Mh.
+Fırat Mh.
+Hacı Abdi Mh.
+Hamidiye Mh.
+Hasan Varol Mh.
+İstiklal Mh.
+İzzetiye Mh.
+K. Hüseyinbey Mh.
+K. Mustafa Paşa Mh.
+Kernek Mh.
+Koyunoğlu Mh.
+Nuriye Mh.
+Özalper Mh.
+Paşaköşkü Mh.
+Samanlı Mh.
+Saray Mh.
+Şeyh Bayram Mh.
+Turgut Özal Mh.
+Üçbağlar Mh.
+Zafer Mh.
+Zaviye Mh.
+//MANİSA
+&&MERKEZ
+1. Anafartalar Mh.
+2. Anafartalar Mh.
+75. Yıl
+Akıncılar Mh.
+Akmescit
+ALAYBEY
+Arda Mh.
+Ayni Ali Mh.
+Cumhuriyet
+ÇARŞI
+Dinçer Mh.
+EGE
+Fatih
+Güzelyurt
+Hafsa Sultan
+Hafsa Sultan Mh.
+Keçili Köy
+Laleli
+Merkez Efendi
+Merkez Efendi Mh.
+MESİR
+Mimar Sinan Mh.
+Muradiye Bld. (İnönü Mh.)
+Peker Mh.
+SAKARYA
+SARUHAN
+SPIL
+ŞEHİTLER
+Tevfikiye Mh.
+TOPCU ASIM
+TUNCA
+TURGUT ÖZAL
+Turgutalp Köyü
+Uncubozköy
+Utku Mh.
+Yarhasanlar Mh.
+Yeni Mahalle
+Yeni Mahalle Mh.
+&&Akhisar
+Atatürk
+Cumhuriyet
+Efendi
+Hacı İshak
+Has Hoca
+Hürriyet
+İnönü
+Kethüda
+Paşa
+Ragıp Bey
+Reşat Bey
+Seyit Ahmet
+Şeyhisa
+Ulu Camii
+Ulucami
+//KAHRAMANMARAŞ
+&&MERKEZ
+Abdülhamid Han Mh.
+Akif İnan Mh.
+Bin Evler Mh.
+ERTUĞRUL GAZİ
+Fatih Mh.
+Haydar Bey Mh.
+Hürriyet Mh.
+Karacaoğlan Mh.
+Karamanlı Mh.
+Mevlana Mh.
+Mimar Sinan Mh.
+Necip Fazıl Mh.
+Orhan Gazi Mh.
+Osmangazi Mh.
+Saçaklızade Mh.
+Selçuklu Mh.
+Şehit Abdullah Çavuş Mh.
+Tavşan Tepe Mh.
+Yunus Emre Mh.
+//MUĞLA
+&&BODRUM
+Akyarlar Köyü
+Bitez Bld.
+Cevat Şakir Mh.
+CUMHURİYET
+Çarşı
+Çarşı Mh.
+Eskiçeşme
+Eskiçeşme Mh.
+Gümbet Mh.
+Gümüşlük Bld. (Karakaya Mh.)
+Gümüşlük Bld. (Koyunbaba Mh.)
+İÇMELER
+Konacık Bld.
+Kumbahçe MAH.
+Kumbahçe Mh.
+Omurça
+Omurça Mh.
+Tepecik
+Tepecik Mh.
+Turgutreis Bld. (Akçaalan Mh.)
+Turgutreis Bld. (Bahçelievler Mh.)
+Turgutreis Bld. (Karabağ Mh.)
+Turgutreis Bld. (Yalı Mh.)
+Turgutreis Bucağı
+Türkkuyusu
+Türkkuyusu Mh.
+UMURCA
+Yokuşbaşı Mh.
+&&FETHİYE
+Akarca Mh.
+Babataşı Mh.
+Cami Mh.
+Cumhuriyet Mh.
+Çatalarık Mh.
+Foça Mh.
+Karaçulha Bld. (Çalıca Mh.)
+Karagedik Mh.
+Karagözler Mh.
+Keçiler Köyü
+Kesikkapı Mh.
+Menteşeoğlu Mh.
+Patlangıç Mh.
+Pazaryeri Mh.
+Taşyaka Mh.
+Tuzla Mh.
+Yeni Mh.
+&&MARMARİS
+Armutalan Bld. (Camiavlu Mh.)
+Armutalan Bld. (Merkez Mh.)
+Armutalan Bld. (Sinan Mh.)
+Armutalan Bld. (Şirinyer Mh.)
+Çamdibi Mh.
+Çıldır Mh.
+Hatipirimi Mh.
+Kemeraltı Mh.
+Sarıana Mh.
+Siteler Mh.
+Tepe Mh.
+&&Merkez
+Balıbey Mh.
+Camikebir Mh.
+Düğerek Mh. ( 30 Dk. Garantisi bulunmamaktadır. )
+Emirbeyazıt Mh.
+Hacırüstem Mh.
+Karamehmet Mh. ( 30 Dk. Garantisi bulunmamaktadır. )
+Karşıyaka Mh.
+Kiramettin Mh.
+Kötekli Mh. ( 30 Dk. Garantisi bulunmamaktadır. )
+Muslihittin Mh.
+Müştakbey Mh.
+Orhaniye
+Orta Mh.
+Ortaköy Mh. ( 30 Dk. Garantisi bulunmamaktadır. )
+Şeyh Mh.
+Toki Konutları ( 30 Dakika garantisi bulunmamaktadır. )
+//NEVŞEHİR
+&&Merkez
+20 Temmuz Mh.
+350 Evler Mh.
+Afetevleri Mh.
+Bahçelievler Mh.
+Bekdik Mh.
+Camiatik Mh.
+Camicedit Mh.
+Cevher Dudayev Mh.
+Cumhuriyet Mh.
+Dere Mh.
+Emek Mh.
+Esentepe Mh.
+Eskili Mh.
+Güzelyurt Mh.
+Hacırüştü Mh.
+Herikli Mh.
+İbrahimpaşa Mh.
+Kapucubaşı Mh.
+Karasoku Mh.
+Kayacamii Mh.
+Kıratlıoğlu Mh.
+M. Akif Ersoy Mh.
+Memişbey Mh.
+Musapaşa Mh.
+Raşitbey Mh.
+Sümer Mh.
+Tahtacami Mh.
+Yeni Mh.
+//ORDU
+&&MERKEZ
+Akyazı Mh.
+AZİZİYE
+Bahçelievler Mh.
+Bucak Mh.
+Düz Mh.
+Saray Mh.
+Selimiye Mh.
+Subaşı Mh.
+Şahincili Mh.
+Şarkiye Mh.
+Şirinevler Mh.
+Yeni Mh.
+//RİZE
+&&Merkez
+Atmeydanı
+Camiönü
+Çamlıbel
+Çarşı
+Ekrem Orhon
+Eminettin
+Kale
+Kanbursırt
+Kaplıca
+Mermerdelen
+Müftü
+Paşakuyu
+Piriçelebi
+Reşadiye
+Tophane
+Yeniköy
+//SAKARYA
+&&ADAPAZARI
+Akıncılar Mh.
+ARABACIALANI
+BAHÇELİEVLER MAH
+Camili Mh.( Servis süresi 45 dk.'dır.)
+Cumhuriyet Mh.
+Çukurahmediye
+Çukurahmediye Mh.
+Dilmen Mah.
+Evrenköy Mh. (45 dk ve üstü servis süresi vardır)
+Güllük
+Güllük Mh.
+Hızırtepe
+Hızırtepe Mh.
+İstiklal Mah.
+İstiklal Mh.
+Karaosman Mh.
+Korucuk Mh. ( servis süresi 45 dk' dır.)
+Kurtuluş Mh.
+Maltepe
+Maltepe Mh.
+Mithatpaşa
+Mithatpaşa Mh.
+Orta Mh.
+Ozanlar Mh.
+Papuççular Mh.
+Sakarya Mh.
+Semerciler Mh.
+Şeker Mh.
+Şirinevler
+Şirinevler Mh.
+Tekeler Mh.
+Tepekum
+Tepekum Mh.
+Tığcılar Mh.
+Tuzla Mh.
+Yağcılar Mh.
+Yahyalar Mh.
+Yeni Cami Mh.
+Yenidoğan Mh.
+Yenigün Mh.
+&&ERENLER
+Bağlar
+Dilmen
+Dilmen Mh.
+Erenler
+Erenler Mh.
+Hacıoğlu
+Hacıoğlu Mh.
+Hanlı Merkez
+Küpçüler
+Küpçüler Mh.
+Tabakhane
+Tabakhane Mh.
+Tepekum
+Yeni
+Yeni Mh.
+Yeşiltepe
+&&SERDİVAN
+Arabacıalanı Mh.
+Bahçelievler Mh.
+Beşköprü
+Beşköprü Mh.
+Esentepe Mh.
+İstiklal
+İstiklal Mh.
+Kemalpaşa
+Kemalpaşa Mh.
+Köprübaşı Mh.
+Otuziki Evler
+&&Ferizli
+İstiklal Mh.
+&&Arifiye
+Erenler
+Hanlı Merkez
+//SAMSUN
+&&İLKADIM
+19 Mayıs Mh.
+Adalet Mh.
+Bahçelievler Mh.
+Çay Mh.
+Çiftlik Mh.
+Derebahçe Mh.
+Fevzi Çakmak Mh.
+Hürriyet Mh.
+İstasyon Mh.
+Kale Mh.
+Karadeniz Mh.
+Kılıçdede Mh.
+Ulugazi Mh.
+Zafer Mh.
+&&ATAKUM
+ADNAN MENDERES BULV.
+ATAKENT
+ATAKENT BULV.
+BÜYÜKOYUMCA
+Cumhuriyet Mh.
+Denizevleri Mh.
+Esenevler Mh.
+İstiklal Mh.
+KÖRFEZ
+Küçükkolpınar Mh.
+Mevlana Mh.
+Mimarsinan Mh.
+Yeşildere Mh.
+&&CANİK
+Belediye Evleri Mh.
+Gazi Mh.
+Gaziosmanpaşa Mh.
+HACI İSMAİL
+Hasköy Mh.
+Karşıyaka Mh.
+Soğuksu Mh.
+Toptepe Mh.
+Uludağ Mh.
+YAVUZ SELİM
+Yenimahalle Mh.
+Yeşilova Mh.
+&&BAFRA
+Alparslan Mh.
+Altınkaya Mh.
+Altınyaprak Mh.
+Bahçeler Mh.
+Büyükcami Mh.
+Cumhuriyet Mh.
+Çilhane Mh.
+Dededağı Köyü
+Emirefendi Mh.
+Fatih Mh.
+Fevzi Çakmak Mh.
+Gaziosmanpaşa Mh.
+Gazipaşa Mh.
+Hacınabi Mh.
+İshaklı Mh.
+İsmetpaşa Mh.
+Kavakpınar Mh.
+Kemalpaşa Mh.
+Kızılırmak Mh.
+Mevlana Mh.
+Tabakhane Mh.
+Yaka Mh.
+//TEKİRDAĞ
+&&ÇORLU
+Ali Paşa Mh.
+CAMİ ATİK
+Cemaliye Mh.
+Çobançeşme Mh.
+Esentepe Mh.
+HATİP
+Havuzlar Mh.
+Hıdırağa Mh.
+Hürriyet Mh.
+KAZIMİYE
+Kazımiye Mh.
+Kemalettin Mh.
+Muhittin Mh.
+Nusratiye Mh.
+ÖNERLER KOYU
+Önerler Köyü
+Reşadiye Mh.
+Rumeli Mh.
+Silahtarağa Mh.
+Şeyh Sinan Mh.
+Zafer Mh.
+&&MERKEZ
+100. Yıl Mh.
+Çınarlı Mh.
+Değirmenaltı Mh.
+Ertuğrul Mh.
+Eskicami-Ortacami Mh.
+Gazioğlu Köyü
+Gündoğdu-Turgut Mh.
+Hürriyet Mh.
+Köseilyas Köyü
+TURGUT
+Yavuz Mh.
+&&ÇERKEZKÖY
+Bağlık Mh.
+Cumhuriyet Mh.
+Fatih Mh.
+Fevzi Paşa Mh.
+Gazi Mustafa Kemal Paşa Mh.
+Gazi Osman Paşa Mh.
+Gazi Osman Paşa OSB
+İNÖNÜ
+İSMET PAŞA
+İstasyon Mh.
+Kapaklı Bld.
+Karaağaç Bld.
+Kızılpınar Bld.
+Pınarca Köyü
+Yıldırım Beyazıt Mh.
+//TRABZON
+&&MERKEZ
+1 Nolu Beşirli Mh.
+1 NOLU ERDOĞDU
+2 Nolu Beşirli Mh.
+2 Nolu Erdoğdu Mh.
+3 NOLU ERDOĞDU
+Aydınlıkevler Mh.
+BAHÇECİK
+Boztepe
+CUMHURİYET
+ÇARŞI
+ÇÖMLEKÇİ
+Çukurçayır Bld.
+Değirmendere
+ESENTEPE
+Fatih Mh.
+GAZİPAŞA
+GÜLBAHAR HATUN
+Gülbaharhatun
+HIZIRBEY
+İnönü Mh.
+İSKENDERPAŞA
+Karşıyaka Mh.
+KEMERKAYA
+KURTULUŞ
+ORTA HİSAR
+Ortahisar
+PAZARKAPI
+Toklu Mh.
+YALI
+YENİCUMA
+Yenimahalle Mh.
+Yeşiltepe Mh.
+ZAFER
+//ŞANLIURFA
+&&Merkez
+Atatürk
+Bağlarbaşı
+Bahçelievler
+Bamyasuyu
+Cengiz Topel
+Hamidiye
+Hızmalı
+İpekyol
+Karakoyunlu
+Maşuk Köyü
+Mimar Sinan
+Selahaddin Eyyubi
+Sultan Fatih
+Şair Nabi
+Şair Şevket
+Şehitlik
+Yenişehir
+//UŞAK
+&&MERKEZ
+Atatürk
+Aybey
+Bozkurt
+Cumhuriyet
+Dikilitaş
+Durak
+Fatih
+Fevzi Çakmak
+Işık
+İslice
+Karaağaç
+Kemalöz
+Köme
+Kurtuluş
+Özdemir
+Sarayaltı
+Ünalan
+//ZONGULDAK
+&&Ereğli
+Akarca Mh.
+Bağlık Mh.
+Elma Tepe Mh.
+Kavaklık Mh.
+Kışla Mh.
+Kirmanlı Mh.
+Murtaza Mh.
+Müftü Mh.
+Orhanlar Mh.
+Sarıkokmaz Mh.
+Süleymanlar Mh.
+Uzunmehmet Mh.
+&&Merkez
+Bahçelievler
+Birlik
+Çaydamar
+İncivez
+Karaelmas
+Kozlu Bld. (Güney Mh.)
+Meşrutiyet
+Mithatpaşa
+On Temmuz
+Tepebaşı
+Terakki
+Yayla
+//AKSARAY
+&&Merkez
+Bahçeli
+Büyük Bölcek
+Ereğlikapı
+Fatih
+Hacı Hasanlı
+Hamidiye
+Kılıçaslan
+Küçük Bölcek
+Minarecik
+Muhsin Çelebi
+Pamucak
+Paşacık
+Tacin
+Taşpazar
+Zincirli
+//KIRIKKALE
+&&Merkez
+Bağlarbaşı Mh.
+Çalılıöz Mh.
+Gürler Mh.
+Güzeltepe Mh.
+Hüseyin Kahya Mh.
+Kurtuluş Mh.
+Ovacık Mh.
+Tepebaşı Mh.
+Yaylacık Mh.
+Yeni Mh.
+Yenidoğan Mh.
+//YALOVA
+&&MERKEZ
+Adnan menders mah. (toki konutları) 
+Bağlarbaşı Mh.
+Bahçelievler Mh.
+Bayrak tepe mah. 
+Dere mah. 
+Fevzi Çakmak Mh.
+Gaziosmanpaşa Mh. ( Servis süresi 45 Dk. )
+Hacımehmet Köyü
+İsmetpaşa Mh. ( Servis süresi 45 Dk. )
+Kazım Karabekir Mh.
+Mustafa Kemal Paşa Mh. ( Servis süresi 45 Dk. )
+Rüstem Paşa Mh.
+Süleyman Bey Mh.
+//KARABÜK
+&&Merkez
+100. Yıl
+5000 Evler 75. Yıl
+5000 Evler Bahçelievler
+5000 Evler Cumhuriyet
+Adatepe
+Atatürk
+Başköy Köyü
+Bayır
+Ergenekon
+Hürriyet
+Kartaltepe
+Kılavuzlar Köyü
+Kurtuluş
+Namık Kemal
+Şirinevler
+Yenişehir
+Yeşil
+&&Safranbolu
+Akçasu
+Atatürk
+Babasultan
+Barış
+Bostanbükü Köyü
+Camikebir
+Çavuş
+Çeşme
+Emek
+Hüseyinçelebi
+İsmetpaşa
+Musalla
+Tokatlı Köyü
+Yenimahalle
+//DÜZCE
+&&Merkez
+Ağaköyü
+Aziziye
+Azmimilli
+Burhaniye
+Camiikebir
+Cedidiye
+Çay
+Darıcı
+Fevzi Çakmak
+Hamidiye
+Kiremit Ocağı
+Kültür
+Mergiç
+Nusrettin
+Otluoğlu Köyü (Gıcır Mh.)
+Şerefiye
+Şıralık
+Uzun Mustafa

@@ -3,8 +3,7 @@
     public enum SuggestionType
     {
         City,
-        District,
-        County
+        District
     }
 
     public class SuggestionDT

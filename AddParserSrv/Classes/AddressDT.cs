@@ -26,8 +26,6 @@ namespace AddParserSrv.Classes
        [DataMember]
        public string Ilce { get; set; }
        [DataMember]
-       public string Semt { get; set; }
-       [DataMember]
        public string No { get; set; }
        [DataMember]
        public string Kat { get; set; }

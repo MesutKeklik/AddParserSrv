@@ -69,9 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddressParserSRV.svc" />
-    <Content Include="TextFiles\Counties.txt" />
+    <Content Include="TextFiles\Districts.txt" />
     <None Include="Properties\PublishProfiles\AddrParser.pubxml" />
-    <None Include="TextFiles\Districts.txt" />
+    <None Include="TextFiles\Counties.txt" />
     <None Include="TextFiles\Cities.txt" />
     <Content Include="web.config">
       <SubType>Designer</SubType>

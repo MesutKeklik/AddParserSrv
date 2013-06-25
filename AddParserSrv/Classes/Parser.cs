@@ -152,12 +152,11 @@ namespace AddParserSrv.Classes
             }
 
             var cities = GetCities();
-            var counties = GetCounties();
             var districts = GetDistricts();
 
             while (cityDistrictFinalSorted.Count > 0)
             {
-                var sg = SpellCheck(cityDistrictFinalSorted[0], cities, districts, counties);
+                var sg = SpellCheck(cityDistrictFinalSorted[0], cities, districts);
                 cityDistrictFinalSorted.RemoveAt(0);
                 if (!sg.IsFound) continue; 
 
@@ -165,70 +164,20 @@ namespace AddParserSrv.Classes
                 {
                     case SuggestionType.City:
                         addr.Il = sg.SuggestedWord;
-                        counties = GetCounties(addr.Il);
+                        districts = GetDistricts(addr.Il);
                         break;
                     case SuggestionType.District:
-                        addr.Semt = sg.SuggestedWord;
-                        break;
-                    case SuggestionType.County:
                         addr.Ilce = sg.SuggestedWord;
-                        if (addr.Il != null && addr.Ilce != null)
-                        districts = GetDistricts(addr.Il, addr.Ilce);
+                        if (addr.Il != null && addr.Ilce != null && addr.Mahalle != null)
+                        {
+                            var counties = GetCounties(addr.Il, addr.Ilce);
+                            addr.Mahalle = SpellCheck(addr.Mahalle, counties);
+                        }
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
             }
-
-
-            //switch (cityDistrictFinalSorted.Count)
-            //{
-            //    case 0:
-            //        break;
-            //    case 1://sadece şehir
-            //        addr.Il = SpellCheckCity(cityDistrictFinalSorted[0],GetCities()).SuggestedWord;
-            //        break;
-            //    case 2://şehir ilçe
-            //        addr.Il = SpellCheckCity(cityDistrictFinalSorted[0], GetCities()).SuggestedWord;
-            //        addr.Ilce = SpellCheckCounty(cityDistrictFinalSorted[1], GetCounties(addr.Il)).SuggestedWord;
-            //        break;
-            //    case 3://şehir ilçe semt
-            //        addr.Il = SpellCheckCity(cityDistrictFinalSorted[0], GetCities()).SuggestedWord;
-            //        addr.Ilce = SpellCheckCounty(cityDistrictFinalSorted[1], GetCounties(addr.Il)).SuggestedWord;
-            //        addr.Semt = SpellCheckDistrict(cityDistrictFinalSorted[2], GetDistricts(addr.Ilce, addr.Il)).SuggestedWord;
-            //        break;
-            //    default: //muhtemel ülke bilgisi de var
-            //        var sg = SpellCheckCity(cityDistrictFinalSorted[0], GetCities());
-            //        if (!sg.IsFound)
-            //            cityDistrictFinalSorted.RemoveAt(0);
-
-            //        addr.Il = SpellCheckCity(cityDistrictFinalSorted[0], GetCities()).SuggestedWord;
-            //        addr.Ilce = SpellCheckCounty(cityDistrictFinalSorted[1], GetCounties(addr.Il)).SuggestedWord;
-            //        addr.Semt = SpellCheckDistrict(cityDistrictFinalSorted[2], GetDistricts(addr.Ilce, addr.Il)).SuggestedWord;
-
-
-            //        break;
-            //}
-
-
-
-            //foreach (var suggestion in cityDistrictFinalSorted.Select(cp => SpellCheck(cp, GetCities(), GetDistricts(), GetCounties())))
-            //{
-            //    switch (suggestion.SuggestedType)
-            //    {
-            //        case SuggestionType.City:
-            //            addr.Il = suggestion.SuggestedWord;
-            //            break;
-            //        case SuggestionType.District:
-            //            addr.Semt = suggestion.SuggestedWord;
-            //            break;
-            //        case SuggestionType.County:
-            //            addr.Ilce = suggestion.SuggestedWord;
-            //            break;
-            //        default:
-            //            throw new ArgumentOutOfRangeException();
-            //    }
-            //}
 
             return addr;
         }
@@ -261,40 +210,27 @@ namespace AddParserSrv.Classes
             return cityStrBuilder.ToString();
         }
 
-        private static string GetCounties()
+        private static string GetDistricts(string city)
         {
-            var countyStrBuilder = new StringBuilder();
-
-            foreach (var source in Properties.Resources.Counties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
-            {
-                countyStrBuilder.Append(source.ToLower());
-                countyStrBuilder.Append(" ");
-            }
-
-            return countyStrBuilder.ToString();
-        }
-
-        private static string GetCounties(string city)
-        {
-            var x = Properties.Resources.Counties.Split(new[] {"//"}, StringSplitOptions.RemoveEmptyEntries).ToList();
-            var countiesOfCity = "";
+            var x = Properties.Resources.Districts.Split(new[] {"//"}, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var districtsOfCity = "";
             foreach (var item in x)
             {
                 if (!item.ToLower().Contains(city)) continue;
-                countiesOfCity = item.ToLower().Replace(city,"");
+                districtsOfCity = item.ToLower().Replace(city, "");
                 break;
             }
 
 
-            var countyStrBuilder = new StringBuilder();
+            var distStrBuilder = new StringBuilder();
 
-            foreach (var source in countiesOfCity.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList()) //Properties.Resources.Counties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
+            foreach (var source in districtsOfCity.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList()) //Properties.Resources.Counties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
             {
-                countyStrBuilder.Append(source.ToLower());
-                countyStrBuilder.Append(" ");
+                distStrBuilder.Append(source.ToLower());
+                distStrBuilder.Append(" ");
             }
 
-            return countyStrBuilder.ToString();
+            return distStrBuilder.ToString();
         }
 
         private static string GetDistricts()
@@ -310,41 +246,41 @@ namespace AddParserSrv.Classes
             return distStrBuilder.ToString();
         }
 
-        private static string GetDistricts(string city, string county)
+        private static string GetCounties(string city, string county)
         {
-            var x = Properties.Resources.Districts.Split(new[] { "//" }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            var countiesOfCity = "";
+            var x = Properties.Resources.Counties.Split(new[] { "//" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var districtsOfCounties = "";
             foreach (var item in x.Where(item => item.ToLower().Contains(city)))
             {
-                countiesOfCity = item.ToLower().Replace(city, "");
+                districtsOfCounties = item.ToLower().Replace(city, "");
                 break;
             }
 
-            x = countiesOfCity.Split(new[] { "&&" }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            var districtsOfCounties = "";
+            x = districtsOfCounties.Split(new[] { "&&" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var countiesOfCounties = "";
             foreach (var item in x)
             {
                 if (!item.ToLower().Contains(county)) continue;
-                districtsOfCounties = item.ToLower().Replace(county, "");
+                countiesOfCounties = item.ToLower().Replace(county, "");
                 break;
             }
 
 
-            var distStrBuilder = new StringBuilder();
+            var countyStrBuilder = new StringBuilder();
 
-            foreach (var source in districtsOfCounties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
+            foreach (var source in countiesOfCounties.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList())
             {
-                distStrBuilder.Append(source.ToLower());
-                distStrBuilder.Append(" ");
+                countyStrBuilder.Append(source.ToLower());
+                countyStrBuilder.Append(" ");
             }
 
-            return distStrBuilder.ToString();
+            return countyStrBuilder.ToString();
         }
 
         /// <summary>
         /// tek kelime seklinde girilmis bilgilerin dogrulugunu kontrol edip onerileni getirir
         /// </summary>
-        private static SuggestionDT SpellCheck(string word, string cities, string districts, string counties)
+        private static SuggestionDT SpellCheck(string word, string cities, string districts)
         {
             var dir = new RAMDirectory();
             var iw = new IndexWriter(dir, new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30), IndexWriter.MaxFieldLength.UNLIMITED);
@@ -358,14 +294,14 @@ namespace AddParserSrv.Classes
             textdistField.SetValue(districts);
             iddistField.SetValue("0");
 
-            var countyDoc = new Document();
-            var textcountyField = new Field("text", "", Field.Store.YES, Field.Index.ANALYZED);
-            countyDoc.Add(textcountyField);
-            var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
-            countyDoc.Add(idcountyField);
+            //var countyDoc = new Document();
+            //var textcountyField = new Field("text", "", Field.Store.YES, Field.Index.ANALYZED);
+            //countyDoc.Add(textcountyField);
+            //var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
+            //countyDoc.Add(idcountyField);
 
-            textcountyField.SetValue(counties); //İlçe bilgileri bir yerden okunmalı burada elle girilmiş durumda
-            idcountyField.SetValue("1");
+            //textcountyField.SetValue(counties); //İlçe bilgileri bir yerden okunmalı burada elle girilmiş durumda
+            //idcountyField.SetValue("1");
 
             var cityDoc = new Document();
             var textcityField = new Field("text", "", Field.Store.YES, Field.Index.ANALYZED);
@@ -378,7 +314,7 @@ namespace AddParserSrv.Classes
 
             iw.AddDocument(distDoc);
             iw.AddDocument(cityDoc);
-            iw.AddDocument(countyDoc);
+            //iw.AddDocument(countyDoc);
 
             iw.Commit();
             var reader = iw.GetReader();
@@ -397,12 +333,12 @@ namespace AddParserSrv.Classes
                     break;
                 }
 
-                foreach (var county in (counties.ToLower().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)).Where(county => county == word))
-                {
-                    retVal.SuggestedWord = county;
-                    retVal.SuggestedType = SuggestionType.County;
-                    break;
-                }
+                //foreach (var county in (counties.ToLower().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)).Where(county => county == word))
+                //{
+                //    retVal.SuggestedWord = county;
+                //    retVal.SuggestedType = SuggestionType.County;
+                //    break;
+                //}
 
                 foreach (var dist in (districts.ToLower().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)).Where(dist => dist == word))
                 {
@@ -436,8 +372,8 @@ namespace AddParserSrv.Classes
                             retVal.SuggestedType = SuggestionType.District;
                             break;
                         case "1":
-                            retVal.SuggestedType = SuggestionType.County;
-                            break;
+                            //retVal.SuggestedType = SuggestionType.County;
+                            //break;
                         case "2":
                             retVal.SuggestedType = SuggestionType.City;
                             break;
@@ -450,6 +386,54 @@ namespace AddParserSrv.Classes
             return retVal;
         }
 
+
+        /// <summary>
+        /// tek kelime seklinde girilmis bilgilerin dogrulugunu kontrol edip onerileni getirir
+        /// </summary>
+        private static string SpellCheck(string word, string counties)
+        {
+            string retVal = word;
+            var dir = new RAMDirectory();
+            var iw = new IndexWriter(dir, new StandardAnalyzer(Lucene.Net.Util.Version.LUCENE_30), IndexWriter.MaxFieldLength.UNLIMITED);
+
+            var countyDoc = new Document();
+            var textcountyField = new Field("text", "", Field.Store.YES, Field.Index.ANALYZED);
+            countyDoc.Add(textcountyField);
+            var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
+            countyDoc.Add(idcountyField);
+
+            textcountyField.SetValue(counties); 
+            idcountyField.SetValue("1");
+
+            iw.AddDocument(countyDoc);
+
+            iw.Commit();
+            var reader = iw.GetReader();
+
+            var speller = new SpellChecker.Net.Search.Spell.SpellChecker(new RAMDirectory());
+            speller.IndexDictionary(new LuceneDictionary(reader, "text"));
+            if (speller.Exist(word))
+            {
+                foreach (var county in (counties.ToLower().Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)).Where(city => city == word))
+                {
+                    retVal = county;
+                    break;
+                }
+
+            }
+            else
+            {
+                var suggestions = speller.SuggestSimilar(word, 1);
+                retVal = suggestions.Length > 0 ? suggestions[0] : word;
+
+
+                
+            }
+            reader.Dispose();
+            iw.Dispose();
+
+            return retVal;
+        }
 
         /// <summary>
         /// Address belirtilen arama tipine göre gereken kısmı bulur
