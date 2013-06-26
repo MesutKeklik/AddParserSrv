@@ -69,10 +69,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddressParserSRV.svc" />
-    <Content Include="TextFiles\Districts.txt" />
+    <Content Include="TextFiles\Districts.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\AddrParser.pubxml" />
-    <None Include="TextFiles\Counties.txt" />
-    <None Include="TextFiles\Cities.txt" />
+    <None Include="TextFiles\Counties.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TextFiles\Cities.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
