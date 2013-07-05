@@ -41,7 +41,7 @@ namespace AddParserSrv.Classes
         public const string NoReg = "(( n[.])|( n[.:])|( n[:])|( no[.])|( no[.:])|( no[:])|( no[ ]))";
         public const string KatReg = "(( k[.])|( k[.:])|( k[:])|( kat[.])|( kat[.:])|( kat[:])|( kat[ ]))";
         public const string DaireReg = "(( d[.])|( d[.:])|( d[:])|( da[.])|( da[.:])|( da[:])|( daire[:])|( daire[ ]))";
-        public const string BolgeReg = "( kamp.*[ ])";
+        public const string BolgeReg = "( kamp.*[ ])|( lojm.*[ ])";
 
 
         public static AddressDT ParseAddress(string addressStr)
