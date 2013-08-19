@@ -32,23 +32,28 @@ namespace AddParserSrv.Classes
 
         //sabit regex 
         public const string MahReg = "(( m[ ])|( m[. ])|( mh[ ])|( mh[. ])|( mah[ ])|( mah[. ])|( mahalle.*[ ]))";
-        public const string SkReg = "(( s[ ])|( s[. ])|( sk[ ])|( sk[. ])|( sok[ ])|( sok[. ])|( sokak[ ])|( sokağ.*[ ]))";
-        public const string AptReg = "(( iş[ ]han.*[ ])|( is[ ]han.*[ ])|( iş[ ]m.*[ ])|( is[ ]m.*[ ])|( bina.*[ ])|( a[ ])|( a[. ])|( ap[ ])|( ap[. ])|( apt[ ])|( apt[. ])|( apart.*[ ])|( p[ ])|( p[. ])|( pl[ ])|( pl[. ])|( plz[ ])|( plz[. ])|( plaz.*[ ])|( i* merkez.*[ ]))";
+        public const string SkReg = "(( s[ ])|( s[. ])|( sk[ ])|( sk[. ])|( sok[ ])|( sok[. ])|( sokak[ ])|( sokak.)|( sokağ.*[ ])|( sokag.*[ ]))";
+        public const string AptReg = "(( iş[ ]han.*[ ])|( is[ ]han.*[ ])|( iş[ ]m.*[ ])|( is[ ]m.*[ ])|( bina.*[ ])|" + 
+            "( a[ ])|( a[. ])|( ap[ ])|( ap[. ])|( apt[ ])|( apt[. ])|( apart.*[ ])|( p[ ])|( p[. ])|( pl[ ])|( pl[. ])|" + 
+            "( plz[ ])|( plz[. ])|( plaz.*[ ])|( i* merkez.*[ ])|( iş[.]han.*[.])|( is[.]han.*[.])|( iş[.]m.*[.])|( is[.]m.*[.])|" + 
+            "( bina.*[.])|( a[.])|( ap[.])|( apt[.])|( apart.*[.])|( p[.])|( pl[.])|( plz[.])|( plaz.*[.])|( i* merkez.*[.])|" +
+            "( residence[ ])|( residance[ ])|( rezidence[ ])|( rezidans[ ])|( blokla.*[ ])" +
+            ")";
         public const string CadReg = "(( yol.*[ ])|( c[ ])|( c[. ])|( cd[ ])|( cd[. ])|( cad[ ])|( cad[. ])|( cadde.*[ ]))";
-        public const string SiteReg = "(( st[ ])|( st[. ])|( site.*[ ]))";
-        public const string BlokReg = "( blok.*[ ])";
+        public const string SiteReg = "(( st[ ])|( st[. ])|( site.*[ ])|( lojm.*[ ]))";
+        public const string BlokReg = "( blok[ ])";
         public const string BulvReg = "(( bl[ ])|( bl[. ])|( bulv.*[ ])|( blv.*[ ]))";
-        public const string NoReg = "(( n[.])|( n[.:])|( n[:])|( no[.])|( no[.:])|( no[:])|( no[ ]))";
+        public const string NoReg = "(( n[.])|( n[.:])|( n[:])|( no[.])|( no[.:])|( no[:])|( no[ ])|(.n[.])|(.n[.:])|(.n[:])|(.no[.])|(.no[.:])|(.no[:])|(.no[ ]))";
         public const string KatReg = "(( k[.])|( k[.:])|( k[:])|( kat[.])|( kat[.:])|( kat[:])|( kat[ ]))";
         public const string DaireReg = "(( d[.])|( d[.:])|( d[:])|( da[.])|( da[.:])|( da[:])|( daire[:])|( daire[ ]))";
-        public const string BolgeReg = "( kamp.*[ ])|( lojm.*[ ])";
+        public const string BolgeReg = "( kamp.*[ ])";
 
 
         public static AddressDT ParseAddress(string addressStr)
         {
             addressStr = ChangeTurkishToEnglish(addressStr).ToLower(new CultureInfo("tr-TR"));
             var tmpAddr = addressStr;
-            
+
             //kurala uyan kelimeler
             var rulledMatches = "";
             const string tmpMatch = "";
@@ -62,7 +67,7 @@ namespace AddParserSrv.Classes
             var orderedDict = dict.OrderBy(x => x.Key);
 
             var addr = new AddressDT();
-            
+
             //sıralanmış dictionary arama yapıp addr'nin ilgili alanlarının doldurulduğu kısım.
             foreach (var item in orderedDict)
             {
@@ -146,7 +151,7 @@ namespace AddParserSrv.Classes
 
             var cityDistrictFinalSorted = new List<string>();
 
-            for (var i = cityDistrictFinalDistict.Count-1; i >= 0; i--)
+            for (var i = cityDistrictFinalDistict.Count - 1; i >= 0; i--)
             {
                 cityDistrictFinalSorted.Add(cityDistrictFinalDistict[i]);
             }
@@ -158,7 +163,7 @@ namespace AddParserSrv.Classes
             {
                 var sg = SpellCheck(cityDistrictFinalSorted[0], cities, districts);
                 cityDistrictFinalSorted.RemoveAt(0);
-                if (!sg.IsFound) continue; 
+                if (!sg.IsFound) continue;
 
                 switch (sg.SuggestedType)
                 {
@@ -186,15 +191,16 @@ namespace AddParserSrv.Classes
         {
             return
                 turkish.Replace("ş", "s")
-                       .Replace("ı", "i")
-                       .Replace("ö", "o")
-                       .Replace("ü", "u")
-                       .Replace("ğ", "g")
-                       .Replace("ğ", "g")
-                       .Replace("ç", "c")
-                       .Replace("İ", "i")
-                       .Replace("I", "i")
-                       .Replace("i̇", "i");
+                    .Replace("ı", "i")
+                    .Replace("ö", "o")
+                    .Replace("ü", "u")
+                    .Replace("ğ", "g")
+                    .Replace("ğ", "g")
+                    .Replace("ç", "c")
+                    .Replace("İ", "i")
+                    .Replace("I", "i")
+                    .Replace("i̇", "i")
+                    .Replace(",", ".");
         }
 
         private static string GetCities()
@@ -212,7 +218,7 @@ namespace AddParserSrv.Classes
 
         private static string GetDistricts(string city)
         {
-            var x = Properties.Resources.Districts.Split(new[] {"//"}, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var x = Properties.Resources.Districts.Split(new[] { "//" }, StringSplitOptions.RemoveEmptyEntries).ToList();
             var districtsOfCity = "";
             foreach (var item in x)
             {
@@ -372,8 +378,8 @@ namespace AddParserSrv.Classes
                             retVal.SuggestedType = SuggestionType.District;
                             break;
                         case "1":
-                            //retVal.SuggestedType = SuggestionType.County;
-                            //break;
+                        //retVal.SuggestedType = SuggestionType.County;
+                        //break;
                         case "2":
                             retVal.SuggestedType = SuggestionType.City;
                             break;
@@ -402,7 +408,7 @@ namespace AddParserSrv.Classes
             var idcountyField = new Field("id", "", Field.Store.YES, Field.Index.NOT_ANALYZED);
             countyDoc.Add(idcountyField);
 
-            textcountyField.SetValue(counties); 
+            textcountyField.SetValue(counties);
             idcountyField.SetValue("1");
 
             iw.AddDocument(countyDoc);
@@ -427,7 +433,7 @@ namespace AddParserSrv.Classes
                 retVal = suggestions.Length > 0 ? suggestions[0] : word;
 
 
-                
+
             }
             reader.Dispose();
             iw.Dispose();
@@ -531,12 +537,14 @@ namespace AddParserSrv.Classes
             {
                 if (matched[0].Value.Contains("is") || matched[0].Value.Contains("iş"))
                     tmpMatch = matched[0].Value.Split(' ').Length > 0
-                               ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0] + " " + matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[1] 
+                               ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0] + " " + matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[1]
                                : matched[0].Value;
                 else
                     tmpMatch = matched[0].Value.Split(' ').Length > 0
                                    ? matched[0].Value.Split(wsSep, StringSplitOptions.RemoveEmptyEntries)[0]
                                    : matched[0].Value;
+                if (tmpMatch.Contains("."))
+                    tmpMatch = tmpMatch.Split('.')[0] + ".";
                 addressStr = ReplaceFirst(addressStr, tmpMatch, "");
                 rulledMatches += " " + tmpMatch;
             }
